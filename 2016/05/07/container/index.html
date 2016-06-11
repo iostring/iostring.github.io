@@ -1,0 +1,810 @@
+<!doctype html>
+
+<head>
+  <meta charset="UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  <link href="/vendors/fancybox/source/jquery.fancybox.css?v=2.1.5" rel="stylesheet" type="text/css" />
+
+
+
+
+  
+  
+  
+  
+
+  
+    
+    
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    
+    
+    <link href="//fonts.googleapis.com/css?family=Lato:300,300italic,400,400italic,700,700italic&subset=latin,latin-ext" rel="stylesheet" type="text/css">
+  
+
+
+
+
+
+
+<link href="/vendors/font-awesome/css/font-awesome.min.css?v=4.4.0" rel="stylesheet" type="text/css" />
+
+<link href="/css/main.css?v=5.0.1" rel="stylesheet" type="text/css" />
+
+
+  <meta name="keywords" content="C++," />
+
+
+
+
+
+
+
+
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=5.0.1" />
+
+
+
+
+
+
+<meta name="description" content="Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)
+
+容器类型包括vector,list,set,map;其中vector,list属于序列式容器，主要进行迭代操作；set(key),map(key/value)属于关联式容器，可快速寻找元素值；
+List类型：    包含前向指针(foward):寻址上一个对象；      回向指针(b">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Container">
+<meta property="og:url" content="https://derive.cc/2016/05/07/container/index.html">
+<meta property="og:site_name" content="Derive">
+<meta property="og:description" content="Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)
+
+容器类型包括vector,list,set,map;其中vector,list属于序列式容器，主要进行迭代操作；set(key),map(key/value)属于关联式容器，可快速寻找元素值；
+List类型：    包含前向指针(foward):寻址上一个对象；      回向指针(b">
+<meta property="og:image" content="https://derive.cc/images/land_of_pixels.jpg">
+<meta property="og:updated_time" content="2016-06-07T15:32:48.678Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Container">
+<meta name="twitter:description" content="Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)
+
+容器类型包括vector,list,set,map;其中vector,list属于序列式容器，主要进行迭代操作；set(key),map(key/value)属于关联式容器，可快速寻找元素值；
+List类型：    包含前向指针(foward):寻址上一个对象；      回向指针(b">
+<meta name="twitter:image" content="https://derive.cc/images/land_of_pixels.jpg">
+
+
+
+<script type="text/javascript" id="hexo.configuration">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    scheme: 'Mist',
+    sidebar: {"position":"right","display":"hide"},
+    fancybox: true,
+    motion: true,
+    duoshuo: {
+      userId: 0,
+      author: '博主'
+    }
+  };
+</script>
+
+  <title> Container | Derive </title>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
+
+  
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+
+  <div class="container one-collumn sidebar-position-right page-post-detail ">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-meta ">
+  
+
+  <div class="custom-logo-site-title">
+    <a href="/"  class="brand" rel="start">
+      <span class="logo-line-before"><i></i></span>
+      <span class="site-title">Derive</span>
+      <span class="logo-line-after"><i></i></span>
+    </a>
+  </div>
+  <p class="site-subtitle"></p>
+</div>
+
+<div class="site-nav-toggle">
+  <button>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+    <span class="btn-bar"></span>
+  </button>
+</div>
+
+<nav class="site-nav">
+  
+
+  
+    <ul id="menu" class="menu">
+      
+        
+        <li class="menu-item menu-item-home">
+          <a href="/" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-home"></i> <br />
+            
+            首页
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-archives">
+          <a href="/archives" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-archive"></i> <br />
+            
+            归档
+          </a>
+        </li>
+      
+        
+        <li class="menu-item menu-item-tags">
+          <a href="/tags" rel="section">
+            
+              <i class="menu-item-icon fa fa-fw fa-tags"></i> <br />
+            
+            标签
+          </a>
+        </li>
+      
+
+      
+        <li class="menu-item menu-item-search">
+          
+            <a href="#" class="popup-trigger">
+          
+            
+              <i class="menu-item-icon fa fa-search fa-fw"></i> <br />
+            
+            搜索
+          </a>
+        </li>
+      
+    </ul>
+  
+
+  
+    <div class="site-search">
+      
+  <div class="popup">
+ <span class="search-icon fa fa-search"></span>
+ <input type="text" id="local-search-input">
+ <div id="local-search-result"></div>
+ <span class="popup-btn-close">close</span>
+</div>
+
+
+    </div>
+  
+</nav>
+
+ </div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  
+  
+
+  
+  
+  
+
+  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
+
+    
+      <header class="post-header">
+
+        
+        
+          <h1 class="post-title" itemprop="name headline">
+            
+            
+              
+                Container
+              
+            
+          </h1>
+        
+
+        <div class="post-meta">
+          <span class="post-time">
+            <span class="post-meta-item-icon">
+              <i class="fa fa-calendar-o"></i>
+            </span>
+            <span class="post-meta-item-text">发表于</span>
+            <time itemprop="dateCreated" datetime="2016-05-07T00:00:00+08:00" content="2016-05-07">
+              2016-05-07
+            </time>
+          </span>
+
+          
+
+          
+            
+          
+
+          
+
+          
+          
+
+          
+        </div>
+      </header>
+    
+
+
+    <div class="post-body" itemprop="articleBody">
+
+      
+      
+
+      
+        <p><meta charset="utf-8"><br>Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)</p>
+<p><center><img src="/images/land_of_pixels.jpg" alt="land_of_pixels" width="600" height="600"></center></p>
+<h2 id="容器类型"><a href="#容器类型" class="headerlink" title="容器类型"></a>容器类型</h2><p>包括vector,list,set,map;<br>其中vector,list属于序列式容器，主要进行迭代操作；<br>set(key),map(key/value)属于关联式容器，可快速寻找元素值；</p>
+<p>List类型：<br>    包含前向指针(foward):寻址上一个对象；<br>      回向指针(backward):寻址下一个对象。</p>
+<h2 id="实例：单词出现次数查询"><a href="#实例：单词出现次数查询" class="headerlink" title="实例：单词出现次数查询"></a>实例：单词出现次数查询</h2><a id="more"></a>
+<pre><code>#include&lt;map&gt;
+#include&lt;set&gt;
+#include&lt;string&gt;
+#include&lt;iostream&gt;
+#include&lt;fstream&gt;
+using namespace std;
+
+void initialize_exclusion_set(set&lt;string&gt;&amp;);
+void process_file(map&lt;string, int&gt;&amp;, const set&lt;string&gt;&amp;, ifstream&amp;);
+void display_word_counter(const map&lt;string, int&gt;&amp;, ofstream&amp;);
+void user_query(const map&lt;string, int&gt;&amp;);
+
+int main()
+{
+    ifstream ifile(&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\C.txt&quot;);
+    ofstream ofile(&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\out.map&quot;);
+    if (!ifile || !ofile)
+    {
+        cerr &lt;&lt; &quot;unable to open file -- bailing out!\n&quot;;
+        return -1;
+    }
+    set&lt;string&gt; exclude_set;
+    initialize_exclusion_set(exclude_set);
+
+    map&lt;string, int&gt; word_count;
+    user_query(word_count);
+    process_file(word_count, exclude_set, ifile);
+    display_word_counter(word_count, ofile);
+
+}
+
+
+void initialize_exclusion_set(set&lt;string&gt; &amp;exs)
+{
+    static string _excluded_word[25] = {
+        &quot;the&quot;,&quot;and&quot;,&quot;but&quot;,&quot;that&quot;,&quot;then&quot;,&quot;are&quot;,&quot;been&quot;,&quot;can&quot;,&quot;a&quot;,&quot;could&quot;,&quot;did&quot;,&quot;for&quot;,&quot;of&quot;,
+        &quot;had&quot;,&quot;have&quot;,&quot;him&quot;,&quot;his&quot;,&quot;her&quot;,&quot;its&quot;,&quot;is&quot;,&quot;were&quot;,&quot;which&quot;,&quot;when&quot;,&quot;with&quot;,&quot;would&quot;
+    };
+    exs.insert(_excluded_word, _excluded_word + 25);//为set类型赋值
+}
+
+void process_file(map&lt;string, int&gt; &amp;word_count,const set&lt;string&gt; &amp;exclude_set,ifstream &amp;ifile)
+{
+    string word;
+    while (ifile &gt;&gt; word)
+    {
+        if (exclude_set.count(word))//判断读入单词是否在剔除列表
+            continue;
+        word_count[word]++;
+    }
+}
+
+
+void user_query(const map&lt;string, int&gt;&amp; word_map)
+{
+    string search_word;
+    cout &lt;&lt; &quot;please enter a word to search: q to quit\n&quot;;
+    cin &gt;&gt; search_word;
+    while (search_word.size() &amp;&amp; search_word != &quot;q&quot;)
+    {
+        map&lt;string, int&gt;::const_iterator it;
+        if ((it = word_map.find(search_word)) != word_map.end())
+        cout &lt;&lt; &quot;Found! &quot; &lt;&lt; it-&gt;first &lt;&lt; &quot; occurs &quot; &lt;&lt; it-&gt;second &lt;&lt; &quot; times\n&quot;;
+        else
+            cout &lt;&lt; search_word &lt;&lt; &quot; was not found in text.\n&quot;;
+            cout &lt;&lt; &quot;\nAnother search?(q to quit)&quot;;
+        cin &gt;&gt; search_word;
+
+
+
+    }
+}
+
+void display_word_counter(const map&lt;string, int&gt;&amp; word_map, ofstream&amp; os)
+{
+    map&lt;string, int&gt;::const_iterator
+        iter = word_map.begin(),
+        end_it = word_map.end();
+    while (iter != end_it) {
+        os &lt;&lt; iter-&gt;first &lt;&lt; &quot;(&quot; &lt;&lt; iter-&gt;second &lt;&lt; &quot;)&quot; &lt;&lt; endl;
+        ++iter;
+    }
+    os &lt;&lt; endl;
+}
+</code></pre>
+      
+    </div>
+
+    <div>
+      
+        
+      
+    </div>
+
+    <div>
+      
+        
+
+      
+    </div>
+
+    <footer class="post-footer">
+      
+        <div class="post-tags">
+          
+            <a href="/tags/C/" rel="tag">#C++</a>
+          
+        </div>
+      
+
+      
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/2016/05/09/Markdown-语法/" rel="prev" title="Markdown Grammar">
+                Markdown Grammar <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
+
+      
+      
+    </footer>
+  </article>
+
+
+
+    <div class="post-spread">
+      
+    </div>
+  </div>
+
+
+          </div>
+          
+
+
+          
+  <div class="comments" id="comments">
+    
+  </div>
+
+
+        </div>
+        
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+
+      
+
+      
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
+
+      <section class="site-overview sidebar-panel ">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+          <img class="site-author-image" itemprop="image"
+               src="/uploads/avatar.png"
+               alt="zhaowang" />
+          <p class="site-author-name" itemprop="name">zhaowang</p>
+          <p class="site-description motion-element" itemprop="description">Mind and Hand.</p>
+        </div>
+        <nav class="site-state motion-element">
+          <div class="site-state-item site-state-posts">
+            <a href="/archives">
+              <span class="site-state-item-count">4</span>
+              <span class="site-state-item-name">日志</span>
+            </a>
+          </div>
+
+          
+
+          
+            <div class="site-state-item site-state-tags">
+              <a href="/tags">
+                <span class="site-state-item-count">4</span>
+                <span class="site-state-item-name">标签</span>
+              </a>
+            </div>
+          
+
+        </nav>
+
+        
+
+        <div class="links-of-author motion-element">
+          
+            
+              <span class="links-of-author-item">
+                <a href="https://github.com/iostring" target="_blank" title="github">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  github
+                </a>
+              </span>
+            
+              <span class="links-of-author-item">
+                <a href="http://weibo.com/derivecc" target="_blank" title="weibo">
+                  
+                    <i class="fa fa-fw fa-globe"></i>
+                  
+                  weibo
+                </a>
+              </span>
+            
+          
+        </div>
+
+        
+        
+
+        
+        
+
+      </section>
+
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#容器类型"><span class="nav-number">1.</span> <span class="nav-text">容器类型</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#实例：单词出现次数查询"><span class="nav-number">2.</span> <span class="nav-text">实例：单词出现次数查询</span></a></li></ol></div>
+            
+          </div>
+        </section>
+      
+
+    </div>
+  </aside>
+
+
+        
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+	    <div class="license">
+<address><center><strong>
+Contact Me:  <a href="mailto:zhaowang2013@outlook.com">zhao_wang</a>.
+</strong></center></address>
+<a
+rel="license" 
+href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+</a>
+<center>
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">derive</span> 由 <a xmlns:cc="http://creativecommons.org/ns#" href="derive.cc" property="cc:attributionName" rel="cc:attributionURL">赵旺</a> 创作，采用 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享 署名-非商业性使用-相同方式共享 4.0 国际 许可协议</a>进行许可。
+</div>
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<div class="statistic">
+<center>derive总访问量 <span id="busuanzi_value_site_pv"></span><center></div>
+        
+
+        
+		
+
+      </div>
+    </footer>
+
+    <div class="back-to-top">
+      <i class="fa fa-arrow-up"></i>
+    </div>
+  </div>
+
+  
+
+<script type="text/javascript">
+  if (Object.prototype.toString.call(window.Promise) !== '[object Function]') {
+    window.Promise = null;
+  }
+</script>
+
+
+
+
+
+
+
+
+
+  
+
+
+
+  
+  <script type="text/javascript" src="/vendors/jquery/index.js?v=2.1.3"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fastclick/lib/fastclick.min.js?v=1.0.6"></script>
+
+  
+  <script type="text/javascript" src="/vendors/jquery_lazyload/jquery.lazyload.js?v=1.9.7"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/velocity/velocity.ui.min.js?v=1.2.1"></script>
+
+  
+  <script type="text/javascript" src="/vendors/fancybox/source/jquery.fancybox.pack.js?v=2.1.5"></script>
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/utils.js?v=5.0.1"></script>
+
+  <script type="text/javascript" src="/js/src/motion.js?v=5.0.1"></script>
+
+
+
+  
+  
+
+  
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
+
+  
+
+
+  <script type="text/javascript" src="/js/src/bootstrap.js?v=5.0.1"></script>
+
+
+
+  
+
+
+
+  
+
+
+
+  
+  
+  <script type="text/javascript">
+    // Popup Window;
+    var isfetched = false;
+    // Search DB path;
+    var search_path = "search.xml";
+    if (search_path.length == 0) {
+       search_path = "search.xml";
+    }
+    var path = "/" + search_path;
+    // monitor main search box;
+
+    function proceedsearch() {
+      $("body").append('<div class="popoverlay">').css('overflow', 'hidden');
+      $('.popup').toggle();
+
+    }
+    // search function;
+    var searchFunc = function(path, search_id, content_id) {
+    'use strict';
+    $.ajax({
+        url: path,
+        dataType: "xml",
+        async: true,
+        success: function( xmlResponse ) {
+            // get the contents from search data
+            isfetched = true;
+            $('.popup').detach().appendTo('.header-inner');
+            var datas = $( "entry", xmlResponse ).map(function() {
+                return {
+                    title: $( "title", this ).text(),
+                    content: $("content",this).text(),
+                    url: $( "url" , this).text()
+                };
+            }).get();
+            var $input = document.getElementById(search_id);
+            var $resultContent = document.getElementById(content_id);
+            $input.addEventListener('input', function(){
+                var matchcounts = 0;
+                var str='<ul class=\"search-result-list\">';                
+                var keywords = this.value.trim().toLowerCase().split(/[\s\-]+/);
+                $resultContent.innerHTML = "";
+                if (this.value.trim().length > 1) {
+                // perform local searching
+                datas.forEach(function(data) {
+                    var isMatch = true;
+                    var content_index = [];
+                    var data_title = data.title.trim().toLowerCase();
+                    var data_content = data.content.trim().replace(/<[^>]+>/g,"").toLowerCase();
+                    var data_url = data.url;
+                    var index_title = -1;
+                    var index_content = -1;
+                    var first_occur = -1;
+                    // only match artiles with not empty titles and contents
+                    if(data_title != '' && data_content != '') {
+                        keywords.forEach(function(keyword, i) {
+                            index_title = data_title.indexOf(keyword);
+                            index_content = data_content.indexOf(keyword);
+                            if( index_title < 0 && index_content < 0 ){
+                                isMatch = false;
+                            } else {
+                                if (index_content < 0) {
+                                    index_content = 0;
+                                }
+                                if (i == 0) {
+                                    first_occur = index_content;
+                                }
+                            }
+                        });
+                    }
+                    // show search results
+                    if (isMatch) {
+                        matchcounts += 1;
+                        str += "<li><a href='"+ data_url +"' class='search-result-title'>"+ data_title +"</a>";
+                        var content = data.content.trim().replace(/<[^>]+>/g,"");
+                        if (first_occur >= 0) {
+                            // cut out 100 characters
+                            var start = first_occur - 20;
+                            var end = first_occur + 80;
+                            if(start < 0){
+                                start = 0;
+                            }
+                            if(start == 0){
+                                end = 50;
+                            }
+                            if(end > content.length){
+                                end = content.length;
+                            }
+                            var match_content = content.substring(start, end);
+                            // highlight all keywords
+                            keywords.forEach(function(keyword){
+                                var regS = new RegExp(keyword, "gi");
+                                match_content = match_content.replace(regS, "<b class=\"search-keyword\">"+keyword+"</b>");
+                            });
+                            
+                            str += "<p class=\"search-result\">" + match_content +"...</p>"
+                        }
+                        str += "</li>";
+                    }
+                })};
+                str += "</ul>";
+                if (matchcounts == 0) { str = '<div id="no-result"><i class="fa fa-frown-o fa-5x" /></div>' }
+                if (keywords == "") { str = '<div id="no-result"><i class="fa fa-search fa-5x" /></div>' }
+                $resultContent.innerHTML = str;
+            });
+            proceedsearch();
+        }
+    });}
+
+    // handle and trigger popup window;
+    $('.popup-trigger').mousedown(function(e) {
+      e.stopPropagation();
+      if (isfetched == false) {
+        searchFunc(path, 'local-search-input', 'local-search-result');
+      } else {
+        proceedsearch();
+      };
+
+    });
+
+    $('.popup-btn-close').click(function(e){
+      $('.popup').hide();
+      $(".popoverlay").remove();
+      $('body').css('overflow', '');
+    });
+    $('.popup').click(function(e){
+      e.stopPropagation();
+    });
+  </script>
+
+  
+
+  
+
+  
+<script type="text/javascript" async src="//push.zhanzhang.baidu.com/push.js">
+</script>
+
+<!-- <script type="text/rocketscript" data-rocketsrc="//github.atool.org/canvas-nest.min.js"></script> -->
+</body>
+</html>
