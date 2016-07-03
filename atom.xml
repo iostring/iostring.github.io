@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://derive.cc/"/>
-  <updated>2016-07-03T17:19:45.722Z</updated>
+  <updated>2016-07-03T17:34:28.932Z</updated>
   <id>https://derive.cc/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://derive.cc/2016/06/12/writing/"/>
     <id>https://derive.cc/2016/06/12/writing/</id>
     <published>2016-06-11T16:00:00.000Z</published>
-    <updated>2016-07-03T17:19:45.722Z</updated>
+    <updated>2016-07-03T17:34:28.932Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -124,7 +124,7 @@ The life of a man is the process of trying. The more one tries, the better his l
     <link href="https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/"/>
     <id>https://derive.cc/2016/05/15/HTML标签详解/</id>
     <published>2016-05-14T16:00:00.000Z</published>
-    <updated>2016-07-03T16:41:26.100Z</updated>
+    <updated>2016-07-03T17:42:42.308Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -138,7 +138,7 @@ The life of a man is the process of trying. The more one tries, the better his l
 		&lt;/style&gt;
 	&lt;/head&gt;
 	&lt;body&gt;
-		&lt;center&gt;&lt;img src=&quot;/images/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+		&lt;center&gt;&lt;img src=&quot;/img/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
 		&lt;h2 id=&quot;&amp;lt;!--&amp;gt;&quot;&gt;&amp;lt;!--&amp;gt;&lt;/h2&gt;
 		&lt;h3&gt;用法&lt;/h3&gt;
 		&lt;code&gt;
@@ -397,10 +397,10 @@ The life of a man is the process of trying. The more one tries, the better his l
     <link href="https://derive.cc/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/"/>
     <id>https://derive.cc/2016/05/09/Markdown-语法/</id>
     <published>2016-05-08T16:00:00.000Z</published>
-    <updated>2016-06-03T14:56:25.939Z</updated>
+    <updated>2016-07-03T17:42:39.685Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is Simplified Chinese Edition Document of Markdown Syntax.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width=&quot;800&quot; height=&quot;558&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width=&quot;800&quot; height=&quot;558&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Markdown-Syntax&quot;&gt;&lt;a href=&quot;#Markdown-Syntax&quot; class=&quot;headerlink&quot; title=&quot;Markdown: Syntax&quot;&gt;&lt;/a&gt;Markdown: Syntax&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;概述&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;哲学&lt;/a&gt;&lt;/li&gt;
@@ -875,7 +875,7 @@ _   底线
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is Simplified Chinese Edition Document of Markdown Syntax.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width = &quot;800&quot; height = &quot;558&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width = &quot;800&quot; height = &quot;558&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Markdown-Syntax&quot;&gt;&lt;a href=&quot;#Markdown-Syntax&quot; class=&quot;headerlink&quot; title=&quot;Markdown: Syntax&quot;&gt;&lt;/a&gt;Markdown: Syntax&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;概述&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;哲学&lt;/a&gt;&lt;/li&gt;
@@ -915,10 +915,10 @@ _   底线
     <link href="https://derive.cc/2016/05/07/container/"/>
     <id>https://derive.cc/2016/05/07/container/</id>
     <published>2016-05-06T16:00:00.000Z</published>
-    <updated>2016-06-07T15:32:48.678Z</updated>
+    <updated>2016-07-03T17:42:36.957Z</updated>
     
     <content type="html">&lt;p&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;br&gt;Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width=&quot;600&quot; height=&quot;600&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width=&quot;600&quot; height=&quot;600&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h2 id=&quot;容器类型&quot;&gt;&lt;a href=&quot;#容器类型&quot; class=&quot;headerlink&quot; title=&quot;容器类型&quot;&gt;&lt;/a&gt;容器类型&lt;/h2&gt;&lt;p&gt;包括vector,list,set,map;&lt;br&gt;其中vector,list属于序列式容器，主要进行迭代操作；&lt;br&gt;set(key),map(key/value)属于关联式容器，可快速寻找元素值；&lt;/p&gt;
 &lt;p&gt;List类型：&lt;br&gt;    包含前向指针(foward):寻址上一个对象；&lt;br&gt;      回向指针(backward):寻址下一个对象。&lt;/p&gt;
 &lt;h2 id=&quot;实例：单词出现次数查询&quot;&gt;&lt;a href=&quot;#实例：单词出现次数查询&quot; class=&quot;headerlink&quot; title=&quot;实例：单词出现次数查询&quot;&gt;&lt;/a&gt;实例：单词出现次数查询&lt;/h2&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
@@ -1011,7 +1011,7 @@ void display_word_counter(const map&amp;lt;string, int&amp;gt;&amp;amp; word_map
     <summary type="html">
     
       &lt;p&gt;&lt;meta charset=utf-8&gt;&lt;br&gt;Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width = &quot;600&quot; height = &quot;600&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width = &quot;600&quot; height = &quot;600&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h2 id=&quot;容器类型&quot;&gt;&lt;a href=&quot;#容器类型&quot; class=&quot;headerlink&quot; title=&quot;容器类型&quot;&gt;&lt;/a&gt;容器类型&lt;/h2&gt;&lt;p&gt;包括vector,list,set,map;&lt;br&gt;其中vector,list属于序列式容器，主要进行迭代操作；&lt;br&gt;set(key),map(key/value)属于关联式容器，可快速寻找元素值；&lt;/p&gt;
 &lt;p&gt;List类型：&lt;br&gt;    包含前向指针(foward):寻址上一个对象；&lt;br&gt;      回向指针(backward):寻址下一个对象。&lt;/p&gt;
 &lt;h2 id=&quot;实例：单词出现次数查询&quot;&gt;&lt;a href=&quot;#实例：单词出现次数查询&quot; class=&quot;headerlink&quot; title=&quot;实例：单词出现次数查询&quot;&gt;&lt;/a&gt;实例：单词出现次数查询&lt;/h2&gt;
