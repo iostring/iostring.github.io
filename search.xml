@@ -11,70 +11,74 @@
 <head>
 	<meta charset="UTF-8">
 	<title>writing</title>
+	<style>
+	.here{
+		border-top: dotted #467AFE 0.1em;
+		}</style>
 </head>
 <body>
 <center><img src="/images/one_line_kangaroo.png" width="600" height="400" alt="drum"></center>
-<ul><li>As is shown vividly above <br>
+<ul><li class="here">As is shown vividly above <br>
 	正如上图生动展示的那样
 </li>
-<li>In crucial periods of life <br>
+<li class="here">In crucial periods of life <br>
 在人生关键阶段
 </li>
-<li>Cannot be given too much attention or consideration <br>
+<li class="here">Cannot be given too much attention or consideration <br>
 给与再多关注和考虑也不为过
 </li>
-<li>On the contrary ,</li>
-<li>Only by doing so can we … <br>
+<li class="here">On the contrary ,</li>
+<li class="here">Only by doing so can we … <br>
 只有这样做我们才能…
 </li>
-<li>This is to say , <br>
+<li class="here">This is to say , <br>
 也就是说
 </li>
-<li>Stephen Coney once said that there are three constants in life :changes,choice and principles <br>
+<li class="here">Stephen Coney once said that there are three constants in life :changes,choice and principles <br>
 生命中有三种东西是不变的：变化、选择和原则
 </li>
-<li>To do this or to do that is a question <br>
+<li class="here">To do this or to do that is a question <br>
 做这个还是做那个，这是个问题
 </li>
-<li>…are no exception <br>
+<li class="here">…are no exception <br>
 …也不例外
 </li>
-<li>The pessimistic people only see despair,while the optimistic people see hope in it <br>
+<li class="here">The pessimistic people only see despair,while the optimistic people see hope in it <br>
 悲观的人只看到失望，乐观的人看到希望
 </li>
-<li>Laugh till the end <br>
+<li class="here">Laugh till the end <br>
 笑到最后
 </li>
-<li>Thought-provoking <br>
+<li class="here">Thought-provoking <br>
 发人深省的
 </li>
-<li>It is advisable for us to … <br>
+<li class="here">It is advisable for us to … <br>
 …是明智之举
 </li>
-<li>…goes far beyond doubt <br>
+<li class="here">…goes far beyond doubt <br>
 …是毋庸置疑的
 </li>
-<li>Up until a few decades ago, … . Now … <br>
+<li class="here">Up until a few decades ago, … . Now … <br>
 直到几十年前… ;现在…
 </li>
-<li>Take a broader look at … <br>
+<li class="here">Take a broader look at … <br>
 把视野放宽点看…
 </li>
-<li>As so often , <br>
+<li class="here">As so often , <br>
 正如很多时候
 </li>
-<li>To be sure ， <br>
+<li class="here">To be sure ， <br>
 诚然，
 </li>
-<li>A is to B what C is to D <br>
+<li class="here">A is to B what C is to D <br>
 A之于B正如C之于D
 </li>
-<li>The more … ,the more … <br>
+<li class="here">The more … ,the more … <br>
 The life of a man is the process of trying. The more one tries, the better his life will be. <br>
 人的一生就是进行尝试，尝试得越多，生活就越美好 <br>
 --Emerson （爱默生）
 </li>
-<li>The subject of life is making choices. <br>
+<li class="here">The subject of life is making choices. <br>
 人生的课题就是选择 <br>
 --Sartre ( 萨特 )
 </li></ul>
@@ -85,253 +89,250 @@ The life of a man is the process of trying. The more one tries, the better his l
     <entry>
       <title><![CDATA[HTML标签详解]]></title>
       <url>https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/</url>
-      <content type="html"><![CDATA[
-<!DOCTYPE html>
+      <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
-    <meta charset="UTF-8">
-    <head>
-        <style type="text/css">
-        code {background-color: #f5f5f5;
-        border-left: solid #467AFE 0.5em;
-        color: black;
-        font-size: 16px;}
-        </style>
-    </head>
-    <body>
-        <h1 id="label"><bold>HTML标签</bold></h1>
-        <center><img src="/images/drum.gif" alt="drum"></center>
-        <h2 id="&lt;!--&gt;">&lt;!--&gt;</h2>
-        <h3>用法</h3>
-        <code>
-        插入代码注释，可注释多行
-        &lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;
-        </code>
-        <h2 id="&lt;!DOCTYPE&gt;">&lt;!DOCTYPE&gt;</h2>
-        <h3>用法</h3>
-        <code>
-        &lt;!DOCTYPE&gt; 声明必须是 HTML 文档的第一行，位于 &lt;html&gt; 标签之前。
-        &lt;!DOCTYPE&gt; 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。
-        &lt;!DOCTYPE html&gt;
-        </code>
-        <h2 id="&lt;a&gt;">&lt;a&gt;</h2>
-        <h3>用法</h3>
-        <code>
-        &lt;a&gt; 标签定义超链接，用于从一张页面链接到另一张页面。
-        &lt;a&gt; 元素最重要的属性是 href 属性，它指示链接的目标。
-        &lt;a href=&quod;"https://www.derive.cc"&gt;derive&lt;/a&gt;
-        </code>
-        <h2 id="&lt;abbr&gt;">&lt;abbr&gt;</h2>
-        <h3>用法</h3>
-        <code>
-        &lt;abbr&gt; 标签指示简称或缩写，比如 "WWW" 或 "NATO"
-        &lt;abbr&gt; 标签中使用全局的 title 属性，这样就能够在鼠标指针移动到 &lt;abbr&gt; 元素上时显示出简称/缩写的完整版本
-        The &lt;abbr title="People's Republic of China"&gt;PRC&lt;/abbr&gt; was founded in 1949.
-        </code>
-        <h2 id="&lt;address&gt;">&lt;address&gt;</h2>
-        <h3>用法</h3>
-        <code>
-        &lt;address&gt; 标签定义文档或文章的作者/拥有者的联系信息。
-        &lt;address&gt;
-        Written by &lt;a href="mailto:webmaster@example.com"&gt;Donald Duck&lt;/a&gt;.&lt;br&gt;
-        Visit us at:&lt;br&gt;
-        Example.com&lt;br&gt;
-        Box 564, Disneyland&lt;br&gt;
-        USA
-        &lt;/address&gt;
-        </code>
-        <a id="more"></a>
-        <h2 id="&lt;area&gt;">&lt;area&gt;</h2>
-        <code>
-        &lt;area&gt; 标签定义图像映射中的区域（注：图像映射指得是带有可点击区域的图像）。
-        area 元素总是嵌套在 &lt;map&gt; 标签中。
-        </code>
-        <h2 id="&lt;audio&gt;">&lt;audio&gt;</h2>
-        <code>
-        &lt;audio&gt; 标签定义声音，比如音乐或其他音频流
-        &lt;audio src="/i/horse.ogg" controls="controls"&gt;
-        Your browser does not support the audio element.
-        &lt;/audio&gt;
-        </code>
-        <h2 id="&lt;b&gt;">&lt;b&gt;</h2>
-        <code>
-        &lt;b&gt; 标签规定粗体文本
-        </code>
-        <h2 id="&lt;base&gt;">&lt;base&gt;</h2>
-        <code>
-        &lt;base&gt; 标签为页面上的所有链接规定默认地址或默认目标
-        </code>
-        <h2 id="&lt;big&gt;;">&lt;big&gt;</h2>
-        <code>
-        &lt;big&gt; 标签呈现大号字体效果
-        </code>
-        <h2 id="&lt;blockquote&gt;">&lt;blockquote&gt;</h2>
-        <code>
-        &lt;blockquote&gt; 标签定义块引用
-        &lt;blockquote&gt; 与 &lt;/blockquote&gt; 之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。
-        </code>
-        <h2 id="&lt;body&gt;">&lt;body&gt;</h2>
-        <code>
-        &lt;body&gt; 文档主体
-        </code>
-        <h2 id="&lt;br/&gt;">&lt;br/&gt;</h2>
-        <code>
-        &lt;br/&gt; 换行
-        </code>
-        <h2 id="&lt;button&gt;">&lt;button&gt;</h2>
-        <code>
-        &lt;button&gt; 标签定义一个按钮
-        在 button 元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 input 元素创建的按钮之间的不同之处。
-        &lt;button type="button"&gt;Click Me!&lt;/button&gt;
-        </code>
-        <h2 id="&lt;center&gt;">&lt;center&gt;</h2>
-        <code>
-        &lt;center&gt; 标签包含内容水平居中
-        </code>
-        <h2 id="&lt;cite&gt;">&lt;cite&gt;</h2>
-        <code>
-        &lt;cite&gt; 参考文献的引用
-        </code>
-        <h2 id="&lt;code&gt;">&lt;code&gt;</h2>
-        <code>
-        &lt;code&gt; 程序源码，Courier New 字体（打印机字体）
-        </code>
-        <h2 id="&lt;del&gt;">&lt;del&gt;</h2>
-        <code>
-        &lt;del&gt; <del>已删除文本内容</del>
-        </code>
-        <h2 id="&lt;div&gt;">&lt;div&gt;</h2>
-        <code>
-        &lt;div&gt; 标签可以把文档分割为独立的、不同的部分，支持style属性
-        </code>
-        <h2 id="&lt;embed&gt;">&lt;embed&gt;</h2>
-        <code>
-        &lt;embed&gt; 定义嵌入内容，支持src、height、width、type
-        </code>
-        <h2 id="&lt;figure&gt;">&lt;figure&gt;</h2>
-        <code>
-        &lt;figure&gt; 标签规定独立的流内容（图像、图表、照片、代码等等）
-        </code>
-        <h2 id="&lt;footer&gt;">&lt;footer&gt;</h2>
-        <code>
-        &lt;footer&gt; 定义页脚内容，可定义多个
-        </code>
-        <h2 id="&lt;form&gt;">&lt;form&gt;</h2>
-        <code>
-        &lt;form&gt; 定义表单内容
-        </code>
-        <h2 id="&lt;h1--h6&gt;">&lt;h1--h6&gt;</h2>
-        <code>
-        &lt;和h1-h6&gt; 定义1~6级标题
-        </code>
-        <h2 id="&lt;head&gt;">&lt;head&gt;</h2>
-        <code>
-        &lt;head&gt; 定义文档头部内容，头部内容容器
-        </code>
-        <h2 id="&lt;header&gt;">&lt;header&gt;</h2>
-        <code>
-        &lt;header&gt; 定义页眉
-        </code>
-        <h2 id="&lt;hr&gt;">&lt;hr&gt;</h2>
-        <code>
-        &lt;hr&gt; 水平分割线
-        </code>
-        <h2 id="&lt;html&gt;">&lt;html&gt;</h2>
-        <code>
-        &lt;html&gt; 定义HTML文档
-        </code>
-        <h2 id="&lt;i&gt;">&lt;i&gt;</h2>
-        <code>
-        &lt;i&gt; 定义斜体文本
-        </code>
-        <h2 id="&lt;img&gt;">&lt;img&gt;</h2>
-        <code>
-        &lt;img&gt; 嵌入图像
-        &lt;img src="image/derive.png" alt="图像"/&gt;
-        </code>
-        <h2 id="&lt;ins&gt;">&lt;ins&gt;</h2>
-        <code>
-        &lt;ins&gt; <ins>新插入文本,与del相反</ins>
-        </code>
-        <h2 id="&lt;li&gt;">&lt;li&gt;</h2>
-        <code>
-        &lt;li&gt; 标签可用在有序列表 (&lt;ol&gt;) 和无序列表 (&lt;ul&gt;) 中
-        </code>
-        <h2 id="&lt;link&gt;">&lt;link&gt;</h2>
-        <code>
-        &lt;link&gt; 标签最常见的用途是链接样式表
-        </code>
-        <h2 id="&lt;mark&gt;">&lt;mark&gt;</h2>
-        <code>
-        &lt;mark&gt; <mark> 标签定义带有记号的文本</mark>
-        </code>
-        <h2 id="&lt;meta&gt;">&lt;meta&gt;</h2>
-        <code>
-        &lt;meta&gt; 元素可提供有关页面的元信息（meta-information）,定义于文档头部
-        汉字字符编码设定&lt;meta charset="UTF-8"&gt;
-        </code>
-        <h2 id="&lt;p&gt;">&lt;p&gt;</h2>
-        <code>
-        &lt;p&gt; 段落
-        </code>
-        <h2 id="&lt;code&gt;">&lt;code&gt;</h2>
-        <code>
-        &lt;code&gt; 内容包含空格与换行符
-        </code>
-        <h2 id="&lt;script&gt;">&lt;script&gt;</h2>
-        <code>
-        &lt;script&gt; 插入Javascript内容
-        </code>
-        <h2 id="&lt;section&gt;">&lt;section&gt;</h2>
-        <code>
-        &lt;section&gt; 分区段，和div类似
-        </code>
-        <h2 id="&lt;small&gt;">&lt;small&gt;</h2>
-        <code>
-        &lt;small&gt; 小号字体
-        </code>
-        <h2 id="&lt;source&gt;">&lt;source&gt;</h2>
-        <code>
-        &lt;source&gt; 为video、audio等元素定义媒介资源
-        </code>
-        <h2 id="&lt;style&gt;">&lt;style&gt;</h2>
-        <code>
-        &lt;style&gt;  标签用于为 HTML 文档定义样式信息
-        在 style 中，您可以规定在浏览器中如何呈现 HTML 文档
-        type 属性是必需的，定义 style 元素的内容，唯一可能的值是 "text/css"
-        style 元素位于 head 部分中
-        </code>
-        <h2 id="&lt;sub&gt;">&lt;sub&gt;</h2>
-        <code>
-        &lt;sub&gt; 下标文本
-        </code>
-        <h2 id="&lt;sup&gt;">&lt;sup&gt;</h2>
-        <code>
-        &lt;sup&gt; 上标文本
-        </code>
-        <h2 id="&lt;table&gt;">&lt;table&gt;</h2>
-        <code>
-        &lt;table&gt; 标签定义 HTML 表格
-        简单的 HTML 表格由 table 元素以及一个或多个 tr、th 或 td 元素组成
-        </code>
-        <h2 id="&lt;ul&gt;">&lt;ul&gt;</h2>
-        <code>
-        &lt;ul&gt; 无序列表
-        </code>
-        <h2 id="&lt;video&gt;">&lt;video&gt;</h2>
-        <code>
-        &lt;vedio&gt; 插入视频<ul>
-            <li>autoplay  autoplay  如果出现该属性，则视频在就绪后马上播放</li>
-            <li>controls  controls  如果出现该属性，则向用户显示控件，比如播放按钮</li>
-            <li>height    pixels    设置视频播放器的高度</li>
-            <li>loop      loop      如果出现该属性，则当媒介文件完成播放后再次开始播放</li>
-            <li>muted     muted    规定视频的音频输出应该被静音</li>
-            <li>poster    URL    规定视频下载时显示的图像，或者在用户点击播放按钮前显示的图像</li>
-            <li>codeload   codeload   如果出现该属性，则视频在页面加载时进行加载，并预备播放</li>
-            <li>src       url    要播放的视频的 URL</li>
-            <li>width     pixels    设置视频播放器的宽度</li></ul>
-            </code>
-        </body>
-    </html>]]></content>
+	<meta charset="UTF-8">
+	<head>
+		<style>
+		code{
+			color: #000000;
+			background-color: #ffffff;
+		}
+		</style>
+	</head>
+	<body>
+		<center><img src="/images/drum.gif" alt="drum"></center>
+		<h2 id="&lt;!--&gt;">&lt;!--&gt;</h2>
+		<h3>用法</h3>
+		<code>
+		插入代码注释，可注释多行
+		&lt;!--这是一段注释。注释不会在浏览器中显示。--&gt;
+		</code>
+		<h2 id="&lt;!DOCTYPE&gt;">&lt;!DOCTYPE&gt;</h2>
+		<h3>用法</h3>
+		<code>
+		&lt;!DOCTYPE&gt; 声明必须是 HTML 文档的第一行，位于 &lt;html&gt; 标签之前。
+		&lt;!DOCTYPE&gt; 声明不是 HTML 标签；它是指示 web 浏览器关于页面使用哪个 HTML 版本进行编写的指令。
+		&lt;!DOCTYPE html&gt;
+		</code>
+		<h2 id="&lt;a&gt;">&lt;a&gt;</h2>
+		<h3>用法</h3>
+		<code>
+		&lt;a&gt; 标签定义超链接，用于从一张页面链接到另一张页面。
+		&lt;a&gt; 元素最重要的属性是 href 属性，它指示链接的目标。
+		&lt;a href=&quod;"https://www.derive.cc"&gt;derive&lt;/a&gt;
+		</code>
+		<h2 id="&lt;abbr&gt;">&lt;abbr&gt;</h2>
+		<h3>用法</h3>
+		<code>
+		&lt;abbr&gt; 标签指示简称或缩写，比如 "WWW" 或 "NATO"
+		&lt;abbr&gt; 标签中使用全局的 title 属性，这样就能够在鼠标指针移动到 &lt;abbr&gt; 元素上时显示出简称/缩写的完整版本
+		The &lt;abbr title="People's Republic of China"&gt;PRC&lt;/abbr&gt; was founded in 1949.
+		</code>
+		<h2 id="&lt;address&gt;">&lt;address&gt;</h2>
+		<h3>用法</h3>
+		<code>
+		&lt;address&gt; 标签定义文档或文章的作者/拥有者的联系信息。
+		&lt;address&gt;
+		Written by &lt;a href="mailto:webmaster@example.com"&gt;Donald Duck&lt;/a&gt;.&lt;br&gt;
+		Visit us at:&lt;br&gt;
+		Example.com&lt;br&gt;
+		Box 564, Disneyland&lt;br&gt;
+		USA
+		&lt;/address&gt;
+		</code>
+		<h2 id="&lt;area&gt;">&lt;area&gt;</h2>
+		<code>
+		&lt;area&gt; 标签定义图像映射中的区域（注：图像映射指得是带有可点击区域的图像）。
+		area 元素总是嵌套在 &lt;map&gt; 标签中。
+		</code>
+		<h2 id="&lt;audio&gt;">&lt;audio&gt;</h2>
+		<code>
+		&lt;audio&gt; 标签定义声音，比如音乐或其他音频流
+		&lt;audio src="/i/horse.ogg" controls="controls"&gt;
+		Your browser does not support the audio element.
+		&lt;/audio&gt;
+		</code>
+		<h2 id="&lt;b&gt;">&lt;b&gt;</h2>
+		<code>
+		&lt;b&gt; 标签规定粗体文本
+		</code>
+		<h2 id="&lt;base&gt;">&lt;base&gt;</h2>
+		<code>
+		&lt;base&gt; 标签为页面上的所有链接规定默认地址或默认目标
+		</code>
+		<h2 id="&lt;big&gt;;">&lt;big&gt;</h2>
+		<code>
+		&lt;big&gt; 标签呈现大号字体效果
+		</code>
+		<h2 id="&lt;blockquote&gt;">&lt;blockquote&gt;</h2>
+		<code>
+		&lt;blockquote&gt; 标签定义块引用
+		&lt;blockquote&gt; 与 &lt;/blockquote&gt; 之间的所有文本都会从常规文本中分离出来，经常会在左、右两边进行缩进（增加外边距），而且有时会使用斜体。也就是说，块引用拥有它们自己的空间。
+		</code>
+		<h2 id="&lt;body&gt;">&lt;body&gt;</h2>
+		<code>
+		&lt;body&gt; 文档主体
+		</code>
+		<h2 id="&lt;br/&gt;">&lt;br/&gt;</h2>
+		<code>
+		&lt;br/&gt; 换行
+		</code>
+		<h2 id="&lt;button&gt;">&lt;button&gt;</h2>
+		<code>
+		&lt;button&gt; 标签定义一个按钮
+		在 button 元素内部，您可以放置内容，比如文本或图像。这是该元素与使用 input 元素创建的按钮之间的不同之处。
+		&lt;button type="button"&gt;Click Me!&lt;/button&gt;
+		</code>
+		<h2 id="&lt;center&gt;">&lt;center&gt;</h2>
+		<code>
+		&lt;center&gt; 标签包含内容水平居中
+		</code>
+		<h2 id="&lt;cite&gt;">&lt;cite&gt;</h2>
+		<code>
+		&lt;cite&gt; 参考文献的引用
+		</code>
+		<h2 id="&lt;code&gt;">&lt;code&gt;</h2>
+		<code>
+		&lt;code&gt; 程序源码，Courier New 字体（打印机字体）
+		</code>
+		<h2 id="&lt;del&gt;">&lt;del&gt;</h2>
+		<code>
+		&lt;del&gt; <del>已删除文本内容</del>
+		</code>
+		<h2 id="&lt;div&gt;">&lt;div&gt;</h2>
+		<code>
+		&lt;div&gt; 标签可以把文档分割为独立的、不同的部分，支持style属性
+		</code>
+		<h2 id="&lt;embed&gt;">&lt;embed&gt;</h2>
+		<code>
+		&lt;embed&gt; 定义嵌入内容，支持src、height、width、type
+		</code>
+		<h2 id="&lt;figure&gt;">&lt;figure&gt;</h2>
+		<code>
+		&lt;figure&gt; 标签规定独立的流内容（图像、图表、照片、代码等等）
+		</code>
+		<h2 id="&lt;footer&gt;">&lt;footer&gt;</h2>
+		<code>
+		&lt;footer&gt; 定义页脚内容，可定义多个
+		</code>
+		<h2 id="&lt;form&gt;">&lt;form&gt;</h2>
+		<code>
+		&lt;form&gt; 定义表单内容
+		</code>
+		<h2 id="&lt;h1--h6&gt;">&lt;h1--h6&gt;</h2>
+		<code>
+		&lt;和h1-h6&gt; 定义1~6级标题
+		</code>
+		<h2 id="&lt;head&gt;">&lt;head&gt;</h2>
+		<code>
+		&lt;head&gt; 定义文档头部内容，头部内容容器
+		</code>
+		<h2 id="&lt;header&gt;">&lt;header&gt;</h2>
+		<code>
+		&lt;header&gt; 定义页眉
+		</code>
+		<h2 id="&lt;hr&gt;">&lt;hr&gt;</h2>
+		<code>
+		&lt;hr&gt; 水平分割线
+		</code>
+		<h2 id="&lt;html&gt;">&lt;html&gt;</h2>
+		<code>
+		&lt;html&gt; 定义HTML文档
+		</code>
+		<h2 id="&lt;i&gt;">&lt;i&gt;</h2>
+		<code>
+		&lt;i&gt; 定义斜体文本
+		</code>
+		<h2 id="&lt;img&gt;">&lt;img&gt;</h2>
+		<code>
+		&lt;img&gt; 嵌入图像
+		&lt;img src="image/derive.png" alt="图像"/&gt;
+		</code>
+		<h2 id="&lt;ins&gt;">&lt;ins&gt;</h2>
+		<code>
+		&lt;ins&gt; <ins>新插入文本,与del相反</ins>
+		</code>
+		<h2 id="&lt;li&gt;">&lt;li&gt;</h2>
+		<code>
+		&lt;li&gt; 标签可用在有序列表 (&lt;ol&gt;) 和无序列表 (&lt;ul&gt;) 中
+		</code>
+		<h2 id="&lt;link&gt;">&lt;link&gt;</h2>
+		<code>
+		&lt;link&gt; 标签最常见的用途是链接样式表
+		</code>
+		<h2 id="&lt;mark&gt;">&lt;mark&gt;</h2>
+		<code>
+		&lt;mark&gt; <mark> 标签定义带有记号的文本</mark>
+		</code>
+		<h2 id="&lt;meta&gt;">&lt;meta&gt;</h2>
+		<code>
+		&lt;meta&gt; 元素可提供有关页面的元信息（meta-information）,定义于文档头部
+		汉字字符编码设定&lt;meta charset="UTF-8"&gt;
+		</code>
+		<h2 id="&lt;p&gt;">&lt;p&gt;</h2>
+		<code>
+		&lt;p&gt; 段落
+		</code>
+		<h2 id="&lt;code&gt;">&lt;code&gt;</h2>
+		<code>
+		&lt;code&gt; 内容包含空格与换行符
+		</code>
+		<h2 id="&lt;script&gt;">&lt;script&gt;</h2>
+		<code>
+		&lt;script&gt; 插入Javascript内容
+		</code>
+		<h2 id="&lt;section&gt;">&lt;section&gt;</h2>
+		<code>
+		&lt;section&gt; 分区段，和div类似
+		</code>
+		<h2 id="&lt;small&gt;">&lt;small&gt;</h2>
+		<code>
+		&lt;small&gt; 小号字体
+		</code>
+		<h2 id="&lt;source&gt;">&lt;source&gt;</h2>
+		<code>
+		&lt;source&gt; 为video、audio等元素定义媒介资源
+		</code>
+		<h2 id="&lt;style&gt;">&lt;style&gt;</h2>
+		<code>
+		&lt;style&gt;  标签用于为 HTML 文档定义样式信息
+		在 style 中，您可以规定在浏览器中如何呈现 HTML 文档
+		type 属性是必需的，定义 style 元素的内容，唯一可能的值是 "text/css"
+		style 元素位于 head 部分中
+		</code>
+		<h2 id="&lt;sub&gt;">&lt;sub&gt;</h2>
+		<code>
+		&lt;sub&gt; 下标文本
+		</code>
+		<h2 id="&lt;sup&gt;">&lt;sup&gt;</h2>
+		<code>
+		&lt;sup&gt; 上标文本
+		</code>
+		<h2 id="&lt;table&gt;">&lt;table&gt;</h2>
+		<code>
+		&lt;table&gt; 标签定义 HTML 表格
+		简单的 HTML 表格由 table 元素以及一个或多个 tr、th 或 td 元素组成
+		</code>
+		<h2 id="&lt;ul&gt;">&lt;ul&gt;</h2>
+		<code>
+		&lt;ul&gt; 无序列表
+		</code>
+		<h2 id="&lt;video&gt;">&lt;video&gt;</h2>
+		<code>
+		&lt;vedio&gt; 插入视频<ul>
+			<li>autoplay  autoplay  如果出现该属性，则视频在就绪后马上播放</li>
+			<li>controls  controls  如果出现该属性，则向用户显示控件，比如播放按钮</li>
+			<li>height    pixels    设置视频播放器的高度</li>
+			<li>loop      loop      如果出现该属性，则当媒介文件完成播放后再次开始播放</li>
+			<li>muted     muted    规定视频的音频输出应该被静音</li>
+			<li>poster    URL    规定视频下载时显示的图像，或者在用户点击播放按钮前显示的图像</li>
+			<li>codeload   codeload   如果出现该属性，则视频在页面加载时进行加载，并预备播放</li>
+			<li>src       url    要播放的视频的 URL</li>
+			<li>width     pixels    设置视频播放器的宽度</li></ul>
+			</code>
+		</body>
+	</html>]]></content>
     </entry>
     
     <entry>
