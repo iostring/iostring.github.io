@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://derive.cc/"/>
-  <updated>2016-06-12T04:31:50.168Z</updated>
+  <updated>2016-07-03T17:19:45.722Z</updated>
   <id>https://derive.cc/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="https://derive.cc/2016/06/12/writing/"/>
     <id>https://derive.cc/2016/06/12/writing/</id>
     <published>2016-06-11T16:00:00.000Z</published>
-    <updated>2016-06-12T04:31:50.168Z</updated>
+    <updated>2016-07-03T17:19:45.722Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -33,7 +33,7 @@
 		}&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;center&gt;&lt;img src=&quot;/images/one_line_kangaroo.png&quot; width=&quot;600&quot; height=&quot;400&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;/img/one_line_kangaroo.png&quot; width=&quot;600&quot; height=&quot;400&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
 &lt;ul&gt;&lt;li class=&quot;here&quot;&gt;As is shown vividly above &lt;br&gt;
 	正如上图生动展示的那样
 &lt;/li&gt;
