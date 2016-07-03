@@ -5,7 +5,7 @@
     
     <entry>
       <title><![CDATA[英文写作]]></title>
-      <url>https://derive.cc/2016/06/12/writing/</url>
+      <url>http://yoursite.com/2016/06/12/writing/</url>
       <content type="html"><![CDATA[<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -88,7 +88,7 @@ The life of a man is the process of trying. The more one tries, the better his l
     
     <entry>
       <title><![CDATA[HTML标签详解]]></title>
-      <url>https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/</url>
+      <url>http://yoursite.com/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/</url>
       <content type="html"><![CDATA[<!DOCTYPE html>
 <html>
 	<meta charset="UTF-8">
@@ -337,7 +337,7 @@ The life of a man is the process of trying. The more one tries, the better his l
     
     <entry>
       <title><![CDATA[Markdown Grammar]]></title>
-      <url>https://derive.cc/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/</url>
+      <url>http://yoursite.com/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/</url>
       <content type="html"><![CDATA[<p><strong>NOTE:</strong> This is Simplified Chinese Edition Document of Markdown Syntax.</p>
 <p><center><img src="/images/one_line_crab.png" alt="one_line_crab" width="800" height="558"></center></p>
 <h1 id="Markdown-Syntax"><a href="#Markdown-Syntax" class="headerlink" title="Markdown: Syntax"></a>Markdown: Syntax</h1><ul>
@@ -814,7 +814,7 @@ _   底线
     
     <entry>
       <title><![CDATA[Container]]></title>
-      <url>https://derive.cc/2016/05/07/container/</url>
+      <url>http://yoursite.com/2016/05/07/container/</url>
       <content type="html"><![CDATA[<p><meta charset="utf-8"><br>Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)</p>
 <p><center><img src="/images/land_of_pixels.jpg" alt="land_of_pixels" width="600" height="600"></center></p>
 <h2 id="容器类型"><a href="#容器类型" class="headerlink" title="容器类型"></a>容器类型</h2><p>包括vector,list,set,map;<br>其中vector,list属于序列式容器，主要进行迭代操作；<br>set(key),map(key/value)属于关联式容器，可快速寻找元素值；</p>

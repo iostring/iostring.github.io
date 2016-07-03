@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Derive</title>
+  <title>Hexo</title>
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="https://derive.cc/"/>
+  <link href="http://yoursite.com/"/>
   <updated>2016-06-12T04:31:50.168Z</updated>
-  <id>https://derive.cc/</id>
+  <id>http://yoursite.com/</id>
   
   <author>
-    <name>zhaowang</name>
+    <name>John Doe</name>
     
   </author>
   
@@ -17,8 +17,8 @@
   
   <entry>
     <title>英文写作</title>
-    <link href="https://derive.cc/2016/06/12/writing/"/>
-    <id>https://derive.cc/2016/06/12/writing/</id>
+    <link href="http://yoursite.com/2016/06/12/writing/"/>
+    <id>http://yoursite.com/2016/06/12/writing/</id>
     <published>2016-06-11T16:00:00.000Z</published>
     <updated>2016-06-12T04:31:50.168Z</updated>
     
@@ -115,14 +115,14 @@ The life of a man is the process of trying. The more one tries, the better his l
     </summary>
     
     
-      <category term="英语" scheme="https://derive.cc/tags/%E8%8B%B1%E8%AF%AD/"/>
+      <category term="英语" scheme="http://yoursite.com/tags/%E8%8B%B1%E8%AF%AD/"/>
     
   </entry>
   
   <entry>
     <title>HTML标签详解</title>
-    <link href="https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/"/>
-    <id>https://derive.cc/2016/05/15/HTML标签详解/</id>
+    <link href="http://yoursite.com/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/"/>
+    <id>http://yoursite.com/2016/05/15/HTML标签详解/</id>
     <published>2016-05-14T16:00:00.000Z</published>
     <updated>2016-07-03T16:41:26.100Z</updated>
     
@@ -388,14 +388,14 @@ The life of a man is the process of trying. The more one tries, the better his l
     </summary>
     
     
-      <category term="HTML" scheme="https://derive.cc/tags/HTML/"/>
+      <category term="HTML" scheme="http://yoursite.com/tags/HTML/"/>
     
   </entry>
   
   <entry>
     <title>Markdown Grammar</title>
-    <link href="https://derive.cc/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/"/>
-    <id>https://derive.cc/2016/05/09/Markdown-语法/</id>
+    <link href="http://yoursite.com/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/"/>
+    <id>http://yoursite.com/2016/05/09/Markdown-语法/</id>
     <published>2016-05-08T16:00:00.000Z</published>
     <updated>2016-06-03T14:56:25.939Z</updated>
     
@@ -906,14 +906,14 @@ _   底线
     </summary>
     
     
-      <category term="Markdown" scheme="https://derive.cc/tags/Markdown/"/>
+      <category term="Markdown" scheme="http://yoursite.com/tags/Markdown/"/>
     
   </entry>
   
   <entry>
     <title>Container</title>
-    <link href="https://derive.cc/2016/05/07/container/"/>
-    <id>https://derive.cc/2016/05/07/container/</id>
+    <link href="http://yoursite.com/2016/05/07/container/"/>
+    <id>http://yoursite.com/2016/05/07/container/</id>
     <published>2016-05-06T16:00:00.000Z</published>
     <updated>2016-06-07T15:32:48.678Z</updated>
     
@@ -1019,7 +1019,7 @@ void display_word_counter(const map&amp;lt;string, int&amp;gt;&amp;amp; word_map
     </summary>
     
     
-      <category term="C++" scheme="https://derive.cc/tags/C/"/>
+      <category term="C++" scheme="http://yoursite.com/tags/C/"/>
     
   </entry>
   
