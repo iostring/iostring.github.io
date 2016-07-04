@@ -88,6 +88,17 @@
             <!-- Dropdown Menu -->
 			 
             
+        	<li>
+        		<a class="sb-toggle-submenu">Categories<span class="sb-caret"></span></a>
+            	<ul class="sb-submenu">
+				  	
+				    <li><a href="/categories/Code/" class="animsition-link">Code<small>(3)</small></a></li>
+				    
+				    <li><a href="/categories/English/" class="animsition-link">English<small>(1)</small></a></li>
+				    
+				</ul>
+        	</li>
+			
             
         </ul>
         <!-- Lists in Slidebars -->
@@ -96,7 +107,7 @@
             <li><a href="/atom.xml" class="animsition-link" title="rss">RSS</a></li>
         </ul>
     </div>
-    
+
     <!-- ============================ END Off-canvas navigation =========================== -->
 
     <!-- ============================ #sb-site Main Page Wrapper =========================== -->
@@ -192,7 +203,7 @@
     <div class="container">
         <div class="row col-md-offset-2">
             <div class="col-md-8">
-    			<span class="post-meta">
+                <span class="post-meta">
       <time datetime="2016-05-06T16:00:00.000Z" itemprop="datePublished">
           2016-05-07
       </time>
@@ -207,7 +218,7 @@
             </div>
         </div>
         <div class="col-md-8 col-md-offset-2">
-      		<p><meta charset="utf-8"><br>Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)</p>
+            <p><meta charset="utf-8"><br>Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)</p>
 <p><center><img src="/img/land_of_pixels.jpg" alt="land_of_pixels" width="600" height="600"></center></p>
 <h2 id="容器类型"><a href="#容器类型" class="headerlink" title="容器类型"></a>容器类型</h2><p>包括vector,list,set,map;<br>其中vector,list属于序列式容器，主要进行迭代操作；<br>set(key),map(key/value)属于关联式容器，可快速寻找元素值；</p>
 <p>List类型：<br>    包含前向指针(foward):寻址上一个对象；<br>      回向指针(backward):寻址下一个对象。</p>
@@ -309,6 +320,26 @@ void display_word_counter(const map&lt;string, int&gt;&amp; word_map, ofstream&a
     
 </nav>
 
+        <div id="disqus_thread" class="col-md-8 col-md-offset-2"></div>
+        <script>
+        /**
+        *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+        *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables
+        */
+        /*
+        var disqus_config = function () {
+        this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        */
+        (function() {  // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = '//derivecc.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+        </script>
+        <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
         <div class="duoshuo">
 <div class="ds-thread" data-thread-key="2016/05/07/container/" data-title="Container" data-url="https://derive.cc/2016/05/07/container/"></div>
 <script type="text/javascript">
@@ -325,7 +356,6 @@ var duoshuoQuery = {short_name:"duoshuo_name"};
 </div>
     </div>
 </section>
-
 
       <!-- ============================ Footer =========================== -->
 <footer>
