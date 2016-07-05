@@ -126,18 +126,12 @@ The life of a man is the process of trying. The more one tries, the better his l
     <link href="https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/"/>
     <id>https://derive.cc/2016/05/15/HTML标签详解/</id>
     <published>2016-05-14T16:00:00.000Z</published>
-    <updated>2016-07-04T06:18:10.508Z</updated>
+    <updated>2016-07-04T14:28:47.077Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
 	&lt;head&gt;
-		&lt;style&gt;
-		code{
-			color: #000000;
-			background-color: #ffffff;
-		}
-		&lt;/style&gt;
 	&lt;/head&gt;
 	&lt;body&gt;
 		&lt;center&gt;&lt;img src=&quot;/img/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
@@ -379,13 +373,10 @@ The life of a man is the process of trying. The more one tries, the better his l
 &lt;html&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
 	&lt;head&gt;
-		&lt;style&gt;
-		code{
-			color: #000000;
-			background-color: #ffffff;
-		}
-		&lt;/style&gt;
-	&lt;/
+	&lt;/head&gt;
+	&lt;body&gt;
+		&lt;center&gt;&lt;img src=&quot;/img/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+		&lt;h2 id=&quot;&amp;l
     
     </summary>
     

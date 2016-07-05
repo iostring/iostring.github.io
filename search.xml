@@ -93,12 +93,6 @@ The life of a man is the process of trying. The more one tries, the better his l
 <html>
 	<meta charset="UTF-8">
 	<head>
-		<style>
-		code{
-			color: #000000;
-			background-color: #ffffff;
-		}
-		</style>
 	</head>
 	<body>
 		<center><img src="/img/drum.gif" alt="drum"></center>
@@ -909,6 +903,12 @@ void display_word_counter(const map&lt;string, int&gt;&amp; word_map, ofstream&a
     
   
   
+    
+    <entry>
+      <title></title>
+      <url>https://derive.cc/about.html</url>
+      <content type="html"></content>
+    </entry>
     
   
 </search>
