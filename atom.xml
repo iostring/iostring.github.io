@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://derive.cc/"/>
-  <updated>2016-07-04T06:18:36.291Z</updated>
+  <updated>2016-07-09T14:37:16.738Z</updated>
   <id>https://derive.cc/</id>
   
   <author>
@@ -16,21 +16,37 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>LabVIEW姿态模拟</title>
+    <link href="https://derive.cc/2016/07/09/LabVIEW%E5%A7%BF%E6%80%81%E6%A8%A1%E6%8B%9F/"/>
+    <id>https://derive.cc/2016/07/09/LabVIEW姿态模拟/</id>
+    <published>2016-07-08T16:00:00.000Z</published>
+    <updated>2016-07-09T14:37:16.738Z</updated>
+    
+    <content type="html"></content>
+    
+    <summary type="html">
+    
+    </summary>
+    
+      <category term="Measurement" scheme="https://derive.cc/categories/Measurement/"/>
+    
+    
+      <category term="LabVIEW" scheme="https://derive.cc/tags/LabVIEW/"/>
+    
+  </entry>
+  
+  <entry>
     <title>英文写作</title>
     <link href="https://derive.cc/2016/06/12/writing/"/>
     <id>https://derive.cc/2016/06/12/writing/</id>
     <published>2016-06-11T16:00:00.000Z</published>
-    <updated>2016-07-04T06:18:36.291Z</updated>
+    <updated>2016-07-09T14:48:44.249Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
 	&lt;title&gt;writing&lt;/title&gt;
-	&lt;style&gt;
-	.here{
-		border-top: dotted #467AFE 0.1em;
-		}&lt;/style&gt;
 &lt;/head&gt;
 &lt;body&gt;
 &lt;center&gt;&lt;img src=&quot;/img/one_line_kangaroo.png&quot; width=&quot;600&quot; height=&quot;400&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
@@ -108,9 +124,9 @@ The life of a man is the process of trying. The more one tries, the better his l
 &lt;head&gt;
 	&lt;meta charset=&quot;UTF-8&quot;&gt;
 	&lt;title&gt;writing&lt;/title&gt;
-	&lt;style&gt;
-	.here{
-		border-top: dotted #467AFE 0.1em;
+&lt;/head&gt;
+&lt;body&gt;
+&lt;center&gt;&lt;img src=&quot;/img/one_line_kanga
     
     </summary>
     

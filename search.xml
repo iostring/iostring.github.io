@@ -4,6 +4,12 @@
   
     
     <entry>
+      <title><![CDATA[LabVIEW姿态模拟]]></title>
+      <url>https://derive.cc/2016/07/09/LabVIEW%E5%A7%BF%E6%80%81%E6%A8%A1%E6%8B%9F/</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[英文写作]]></title>
       <url>https://derive.cc/2016/06/12/writing/</url>
       <content type="html"><![CDATA[<!DOCTYPE html>
@@ -11,10 +17,6 @@
 <head>
 	<meta charset="UTF-8">
 	<title>writing</title>
-	<style>
-	.here{
-		border-top: dotted #467AFE 0.1em;
-		}</style>
 </head>
 <body>
 <center><img src="/img/one_line_kangaroo.png" width="600" height="400" alt="drum"></center>
@@ -905,8 +907,14 @@ void display_word_counter(const map&lt;string, int&gt;&amp; word_map, ofstream&a
   
     
     <entry>
-      <title></title>
+      <title><![CDATA[about]]></title>
       <url>https://derive.cc/about.html</url>
+      <content type="html"></content>
+    </entry>
+    
+    <entry>
+      <title><![CDATA[photo]]></title>
+      <url>https://derive.cc/photo.html</url>
       <content type="html"></content>
     </entry>
     
