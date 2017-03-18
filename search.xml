@@ -6,7 +6,33 @@
     <entry>
       <title><![CDATA[LabVIEW姿态模拟]]></title>
       <url>https://derive.cc/2016/07/09/LabVIEW%E5%A7%BF%E6%80%81%E6%A8%A1%E6%8B%9F/</url>
-      <content type="html"></content>
+      <content type="html"><![CDATA[<p><strong>NOTE：</strong>虚拟仪器课程考核中的第六题<br><img src="/path/to/img.jpg" alt="Alt text"></p>
+<h1 id="LabVIEW姿态模拟显示-Syntax"><a href="#LabVIEW姿态模拟显示-Syntax" class="headerlink" title="LabVIEW姿态模拟显示: Syntax"></a>LabVIEW姿态模拟显示: Syntax</h1><ul>
+<li><a href="#requirement">题目及要求</a></li>
+<li><a href="#structure">程序结构</a><ul>
+<li>[串口接收]</li>
+<li>[设置旋转]</li>
+<li>[数据存储]</li>
+</ul>
+</li>
+<li><a href="#3D">三维图像设计</a></li>
+<li><a href="#sketch">整体示意图</a></li>
+</ul>
+<p></p><h2 id="requirement">题目及要求</h2><p></p>
+<ul>
+<li>利用Labview控制前端海洋磁场传感器中的姿态传感器（利用单片机模拟）进行姿态数据的采集与串口传输</li>
+<li>能够实时三维显示当前传感器的姿态，并能进行数据的本地文本文件存储</li>
+</ul>
+<hr>
+<p></p><h2 id="structure">程序结构</h2><p></p>
+<ul>
+<li>串口接收<br>串口接收部分采用的函数包括</li>
+<li>设置旋转</li>
+<li>数据存储<h3 id="serial">串口接收</h3>
+
+</li>
+</ul>
+]]></content>
     </entry>
     
     <entry>

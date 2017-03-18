@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://derive.cc/"/>
-  <updated>2016-07-09T14:37:16.738Z</updated>
+  <updated>2016-10-20T12:06:53.455Z</updated>
   <id>https://derive.cc/</id>
   
   <author>
@@ -20,11 +20,40 @@
     <link href="https://derive.cc/2016/07/09/LabVIEW%E5%A7%BF%E6%80%81%E6%A8%A1%E6%8B%9F/"/>
     <id>https://derive.cc/2016/07/09/LabVIEW姿态模拟/</id>
     <published>2016-07-08T16:00:00.000Z</published>
-    <updated>2016-07-09T14:37:16.738Z</updated>
+    <updated>2016-10-20T12:06:53.455Z</updated>
     
-    <content type="html"></content>
+    <content type="html">&lt;p&gt;&lt;strong&gt;NOTE：&lt;/strong&gt;虚拟仪器课程考核中的第六题&lt;br&gt;&lt;img src=&quot;/path/to/img.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;LabVIEW姿态模拟显示-Syntax&quot;&gt;&lt;a href=&quot;#LabVIEW姿态模拟显示-Syntax&quot; class=&quot;headerlink&quot; title=&quot;LabVIEW姿态模拟显示: Syntax&quot;&gt;&lt;/a&gt;LabVIEW姿态模拟显示: Syntax&lt;/h1&gt;&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;#requirement&quot;&gt;题目及要求&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#structure&quot;&gt;程序结构&lt;/a&gt;&lt;ul&gt;
+&lt;li&gt;[串口接收]&lt;/li&gt;
+&lt;li&gt;[设置旋转]&lt;/li&gt;
+&lt;li&gt;[数据存储]&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#3D&quot;&gt;三维图像设计&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;#sketch&quot;&gt;整体示意图&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2 id=&quot;requirement&quot;&gt;题目及要求&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;利用Labview控制前端海洋磁场传感器中的姿态传感器（利用单片机模拟）进行姿态数据的采集与串口传输&lt;/li&gt;
+&lt;li&gt;能够实时三维显示当前传感器的姿态，并能进行数据的本地文本文件存储&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;p&gt;&lt;/p&gt;&lt;h2 id=&quot;structure&quot;&gt;程序结构&lt;/h2&gt;&lt;p&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;串口接收&lt;br&gt;串口接收部分采用的函数包括&lt;/li&gt;
+&lt;li&gt;设置旋转&lt;/li&gt;
+&lt;li&gt;数据存储&lt;h3 id=&quot;serial&quot;&gt;串口接收&lt;/h3&gt;
+
+&lt;/li&gt;
+&lt;/ul&gt;
+</content>
     
     <summary type="html">
+    
+      &lt;p&gt;&lt;strong&gt;NOTE：&lt;/strong&gt;虚拟仪器课程考核中的第六题&lt;br&gt;&lt;img src=&quot;/path/to/img.jpg&quot; alt=&quot;Alt text&quot;&gt;&lt;/p&gt;
+&lt;h1 id=&quot;LabVIEW姿态模拟显示-Syntax&quot;&gt;&lt;a href=&quot;#LabVIEW姿态模
     
     </summary>
     
