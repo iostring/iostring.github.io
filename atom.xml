@@ -69,7 +69,7 @@
     <link href="https://derive.cc/2016/06/12/writing/"/>
     <id>https://derive.cc/2016/06/12/writing/</id>
     <published>2016-06-11T16:00:00.000Z</published>
-    <updated>2016-07-09T14:48:44.249Z</updated>
+    <updated>2017-03-20T07:20:31.057Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html lang=&quot;en&quot;&gt;
@@ -78,7 +78,7 @@
 	&lt;title&gt;writing&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;center&gt;&lt;img src=&quot;/img/one_line_kangaroo.png&quot; width=&quot;600&quot; height=&quot;400&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+&lt;center&gt;&lt;img src=&quot;/images/one_line_kangaroo.png&quot; width=&quot;600&quot; height=&quot;400&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
 &lt;ul&gt;&lt;li class=&quot;here&quot;&gt;As is shown vividly above &lt;br&gt;
 	正如上图生动展示的那样
 &lt;/li&gt;
@@ -155,7 +155,7 @@ The life of a man is the process of trying. The more one tries, the better his l
 	&lt;title&gt;writing&lt;/title&gt;
 &lt;/head&gt;
 &lt;body&gt;
-&lt;center&gt;&lt;img src=&quot;/img/one_line_kanga
+&lt;center&gt;&lt;img src=&quot;/images/one_line_ka
     
     </summary>
     
@@ -171,7 +171,7 @@ The life of a man is the process of trying. The more one tries, the better his l
     <link href="https://derive.cc/2016/05/15/HTML%E6%A0%87%E7%AD%BE%E8%AF%A6%E8%A7%A3/"/>
     <id>https://derive.cc/2016/05/15/HTML标签详解/</id>
     <published>2016-05-14T16:00:00.000Z</published>
-    <updated>2016-07-04T14:28:47.077Z</updated>
+    <updated>2017-03-20T07:20:01.859Z</updated>
     
     <content type="html">&lt;!DOCTYPE html&gt;
 &lt;html&gt;
@@ -179,7 +179,7 @@ The life of a man is the process of trying. The more one tries, the better his l
 	&lt;head&gt;
 	&lt;/head&gt;
 	&lt;body&gt;
-		&lt;center&gt;&lt;img src=&quot;/img/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+		&lt;center&gt;&lt;img src=&quot;/images/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
 		&lt;h2 id=&quot;&amp;lt;!--&amp;gt;&quot;&gt;&amp;lt;!--&amp;gt;&lt;/h2&gt;
 		&lt;h3&gt;用法&lt;/h3&gt;
 		&lt;code&gt;
@@ -420,8 +420,8 @@ The life of a man is the process of trying. The more one tries, the better his l
 	&lt;head&gt;
 	&lt;/head&gt;
 	&lt;body&gt;
-		&lt;center&gt;&lt;img src=&quot;/img/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
-		&lt;h2 id=&quot;&amp;l
+		&lt;center&gt;&lt;img src=&quot;/images/drum.gif&quot; alt=&quot;drum&quot;&gt;&lt;/center&gt;
+		&lt;h2 id=
     
     </summary>
     
@@ -437,10 +437,10 @@ The life of a man is the process of trying. The more one tries, the better his l
     <link href="https://derive.cc/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/"/>
     <id>https://derive.cc/2016/05/09/Markdown-语法/</id>
     <published>2016-05-08T16:00:00.000Z</published>
-    <updated>2016-07-04T06:18:09.407Z</updated>
+    <updated>2017-03-20T07:20:22.529Z</updated>
     
     <content type="html">&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is Simplified Chinese Edition Document of Markdown Syntax.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width=&quot;800&quot; height=&quot;558&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width=&quot;800&quot; height=&quot;558&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Markdown-Syntax&quot;&gt;&lt;a href=&quot;#Markdown-Syntax&quot; class=&quot;headerlink&quot; title=&quot;Markdown: Syntax&quot;&gt;&lt;/a&gt;Markdown: Syntax&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;概述&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;哲学&lt;/a&gt;&lt;/li&gt;
@@ -915,7 +915,7 @@ _   底线
     <summary type="html">
     
       &lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This is Simplified Chinese Edition Document of Markdown Syntax.&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width = &quot;800&quot; height = &quot;558&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/one_line_crab.png&quot; alt=&quot;one_line_crab&quot; width = &quot;800&quot; height = &quot;558&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h1 id=&quot;Markdown-Syntax&quot;&gt;&lt;a href=&quot;#Markdown-Syntax&quot; class=&quot;headerlink&quot; title=&quot;Markdown: Syntax&quot;&gt;&lt;/a&gt;Markdown: Syntax&lt;/h1&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#overview&quot;&gt;概述&lt;/a&gt;&lt;ul&gt;
 &lt;li&gt;&lt;a href=&quot;#philosophy&quot;&gt;哲学&lt;/a&gt;&lt;/li&gt;
@@ -957,103 +957,19 @@ _   底线
     <link href="https://derive.cc/2016/05/07/container/"/>
     <id>https://derive.cc/2016/05/07/container/</id>
     <published>2016-05-06T16:00:00.000Z</published>
-    <updated>2016-07-04T06:18:45.879Z</updated>
+    <updated>2017-03-20T07:34:26.907Z</updated>
     
     <content type="html">&lt;p&gt;&lt;meta charset=&quot;utf-8&quot;&gt;&lt;br&gt;Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width=&quot;600&quot; height=&quot;600&quot;&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width=&quot;600&quot; height=&quot;600&quot;&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h2 id=&quot;容器类型&quot;&gt;&lt;a href=&quot;#容器类型&quot; class=&quot;headerlink&quot; title=&quot;容器类型&quot;&gt;&lt;/a&gt;容器类型&lt;/h2&gt;&lt;p&gt;包括vector,list,set,map;&lt;br&gt;其中vector,list属于序列式容器，主要进行迭代操作；&lt;br&gt;set(key),map(key/value)属于关联式容器，可快速寻找元素值；&lt;/p&gt;
 &lt;p&gt;List类型：&lt;br&gt;    包含前向指针(foward):寻址上一个对象；&lt;br&gt;      回向指针(backward):寻址下一个对象。&lt;/p&gt;
 &lt;h2 id=&quot;实例：单词出现次数查询&quot;&gt;&lt;a href=&quot;#实例：单词出现次数查询&quot; class=&quot;headerlink&quot; title=&quot;实例：单词出现次数查询&quot;&gt;&lt;/a&gt;实例：单词出现次数查询&lt;/h2&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-&lt;pre&gt;&lt;code&gt;#include&amp;lt;map&amp;gt;
-#include&amp;lt;set&amp;gt;
-#include&amp;lt;string&amp;gt;
-#include&amp;lt;iostream&amp;gt;
-#include&amp;lt;fstream&amp;gt;
-using namespace std;
-
-void initialize_exclusion_set(set&amp;lt;string&amp;gt;&amp;amp;);
-void process_file(map&amp;lt;string, int&amp;gt;&amp;amp;, const set&amp;lt;string&amp;gt;&amp;amp;, ifstream&amp;amp;);
-void display_word_counter(const map&amp;lt;string, int&amp;gt;&amp;amp;, ofstream&amp;amp;);
-void user_query(const map&amp;lt;string, int&amp;gt;&amp;amp;);
-
-int main()
-{
-    ifstream ifile(&amp;quot;C:\\Users\\zhaow\\Documents\\Notepad++\\C.txt&amp;quot;);
-    ofstream ofile(&amp;quot;C:\\Users\\zhaow\\Documents\\Notepad++\\out.map&amp;quot;);
-    if (!ifile || !ofile)
-    {
-        cerr &amp;lt;&amp;lt; &amp;quot;unable to open file -- bailing out!\n&amp;quot;;
-        return -1;
-    }
-    set&amp;lt;string&amp;gt; exclude_set;
-    initialize_exclusion_set(exclude_set);
-
-    map&amp;lt;string, int&amp;gt; word_count;
-    user_query(word_count);
-    process_file(word_count, exclude_set, ifile);
-    display_word_counter(word_count, ofile);
-
-}
-
-
-void initialize_exclusion_set(set&amp;lt;string&amp;gt; &amp;amp;exs)
-{
-    static string _excluded_word[25] = {
-        &amp;quot;the&amp;quot;,&amp;quot;and&amp;quot;,&amp;quot;but&amp;quot;,&amp;quot;that&amp;quot;,&amp;quot;then&amp;quot;,&amp;quot;are&amp;quot;,&amp;quot;been&amp;quot;,&amp;quot;can&amp;quot;,&amp;quot;a&amp;quot;,&amp;quot;could&amp;quot;,&amp;quot;did&amp;quot;,&amp;quot;for&amp;quot;,&amp;quot;of&amp;quot;,
-        &amp;quot;had&amp;quot;,&amp;quot;have&amp;quot;,&amp;quot;him&amp;quot;,&amp;quot;his&amp;quot;,&amp;quot;her&amp;quot;,&amp;quot;its&amp;quot;,&amp;quot;is&amp;quot;,&amp;quot;were&amp;quot;,&amp;quot;which&amp;quot;,&amp;quot;when&amp;quot;,&amp;quot;with&amp;quot;,&amp;quot;would&amp;quot;
-    };
-    exs.insert(_excluded_word, _excluded_word + 25);//为set类型赋值
-}
-
-void process_file(map&amp;lt;string, int&amp;gt; &amp;amp;word_count,const set&amp;lt;string&amp;gt; &amp;amp;exclude_set,ifstream &amp;amp;ifile)
-{
-    string word;
-    while (ifile &amp;gt;&amp;gt; word)
-    {
-        if (exclude_set.count(word))//判断读入单词是否在剔除列表
-            continue;
-        word_count[word]++;
-    }
-}
-
-
-void user_query(const map&amp;lt;string, int&amp;gt;&amp;amp; word_map)
-{
-    string search_word;
-    cout &amp;lt;&amp;lt; &amp;quot;please enter a word to search: q to quit\n&amp;quot;;
-    cin &amp;gt;&amp;gt; search_word;
-    while (search_word.size() &amp;amp;&amp;amp; search_word != &amp;quot;q&amp;quot;)
-    {
-        map&amp;lt;string, int&amp;gt;::const_iterator it;
-        if ((it = word_map.find(search_word)) != word_map.end())
-        cout &amp;lt;&amp;lt; &amp;quot;Found! &amp;quot; &amp;lt;&amp;lt; it-&amp;gt;first &amp;lt;&amp;lt; &amp;quot; occurs &amp;quot; &amp;lt;&amp;lt; it-&amp;gt;second &amp;lt;&amp;lt; &amp;quot; times\n&amp;quot;;
-        else
-            cout &amp;lt;&amp;lt; search_word &amp;lt;&amp;lt; &amp;quot; was not found in text.\n&amp;quot;;
-            cout &amp;lt;&amp;lt; &amp;quot;\nAnother search?(q to quit)&amp;quot;;
-        cin &amp;gt;&amp;gt; search_word;
-
-
-
-    }
-}
-
-void display_word_counter(const map&amp;lt;string, int&amp;gt;&amp;amp; word_map, ofstream&amp;amp; os)
-{
-    map&amp;lt;string, int&amp;gt;::const_iterator
-        iter = word_map.begin(),
-        end_it = word_map.end();
-    while (iter != end_it) {
-        os &amp;lt;&amp;lt; iter-&amp;gt;first &amp;lt;&amp;lt; &amp;quot;(&amp;quot; &amp;lt;&amp;lt; iter-&amp;gt;second &amp;lt;&amp;lt; &amp;quot;)&amp;quot; &amp;lt;&amp;lt; endl;
-        ++iter;
-    }
-    os &amp;lt;&amp;lt; endl;
-}
-&lt;/code&gt;&lt;/pre&gt;</content>
+&lt;figure class=&quot;highlight c++&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;3&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;4&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;5&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;6&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;7&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;8&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;9&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;10&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;11&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;12&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;13&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;14&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;15&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;16&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;17&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;18&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;19&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;20&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;21&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;22&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;23&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;24&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;25&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;26&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;27&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;28&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;29&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;30&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;31&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;32&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;33&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;34&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;35&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;36&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;37&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;38&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;39&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;40&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;41&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;42&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;43&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;44&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;45&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;46&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;47&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;48&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;49&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;50&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;51&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;52&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;53&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;54&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;55&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;56&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;57&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;58&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;59&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;60&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;61&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;62&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;63&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;64&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;65&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;66&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;67&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;68&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;69&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;70&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;71&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;72&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;73&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;74&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;75&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;76&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;77&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;78&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;79&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;80&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;81&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;82&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;83&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;84&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;meta-string&quot;&gt;&amp;lt;map&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;meta-string&quot;&gt;&amp;lt;set&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;meta-string&quot;&gt;&amp;lt;string&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;meta-string&quot;&gt;&amp;lt;iostream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;meta&quot;&gt;#&lt;span class=&quot;meta-keyword&quot;&gt;include&lt;/span&gt;&lt;span class=&quot;meta-string&quot;&gt;&amp;lt;fstream&amp;gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;using&lt;/span&gt; &lt;span class=&quot;keyword&quot;&gt;namespace&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;std&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;initialize_exclusion_set&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;&amp;gt;&amp;amp;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;process_file&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;&amp;amp;, &lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;&amp;gt;&amp;amp;, ifstream&amp;amp;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;display_word_counter&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;&amp;amp;, ofstream&amp;amp;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;user_query&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;&amp;amp;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;()&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;function&quot;&gt;ifstream &lt;span class=&quot;title&quot;&gt;ifile&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;string&quot;&gt;&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\C.txt&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;function&quot;&gt;ofstream &lt;span class=&quot;title&quot;&gt;ofile&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;string&quot;&gt;&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\out.map&quot;&lt;/span&gt;)&lt;/span&gt;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (!ifile || !ofile)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;built_in&quot;&gt;cerr&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;unable to open file -- bailing out!\n&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;number&quot;&gt;-1&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;&amp;gt; exclude_set;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	initialize_exclusion_set(exclude_set);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt; word_count;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	user_query(word_count);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	process_file(word_count, exclude_set, ifile);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	display_word_counter(word_count, ofile);&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;initialize_exclusion_set&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;&amp;gt; &amp;amp;exs)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;static&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt; _excluded_word[&lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;] = &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;string&quot;&gt;&quot;the&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;and&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;but&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;that&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;then&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;are&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;been&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;can&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;a&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;could&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;did&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;for&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;of&quot;&lt;/span&gt;,&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;string&quot;&gt;&quot;had&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;have&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;him&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;his&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;her&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;its&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;is&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;were&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;which&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;when&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;with&quot;&lt;/span&gt;,&lt;span class=&quot;string&quot;&gt;&quot;would&quot;&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	exs.insert(_excluded_word, _excluded_word + &lt;span class=&quot;number&quot;&gt;25&lt;/span&gt;);&lt;span class=&quot;comment&quot;&gt;//为set类型赋值&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;process_file&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt; &amp;amp;word_count,&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;set&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;&amp;gt; &amp;amp;exclude_set,ifstream &amp;amp;ifile)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt; word;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (ifile &amp;gt;&amp;gt; word)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; (exclude_set.count(word))&lt;span class=&quot;comment&quot;&gt;//判断读入单词是否在剔除列表&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;keyword&quot;&gt;continue&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		word_count[word]++;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;user_query&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;&amp;amp; word_map)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt; search_word;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;please enter a word to search: q to quit\n&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;cin&lt;/span&gt; &amp;gt;&amp;gt; search_word;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (search_word.size() &amp;amp;&amp;amp; search_word != &lt;span class=&quot;string&quot;&gt;&quot;q&quot;&lt;/span&gt;)&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;::const_iterator it;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;if&lt;/span&gt; ((it = word_map.find(search_word)) != word_map.end())&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;Found! &quot;&lt;/span&gt; &amp;lt;&amp;lt; it-&amp;gt;first &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot; occurs &quot;&lt;/span&gt; &amp;lt;&amp;lt; it-&amp;gt;second &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot; times\n&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;keyword&quot;&gt;else&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; search_word &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot; was not found in text.\n&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;			&lt;span class=&quot;built_in&quot;&gt;cout&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;\nAnother search?(q to quit)&quot;&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		&lt;span class=&quot;built_in&quot;&gt;cin&lt;/span&gt; &amp;gt;&amp;gt; search_word;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;span class=&quot;function&quot;&gt;&lt;span class=&quot;keyword&quot;&gt;void&lt;/span&gt; &lt;span class=&quot;title&quot;&gt;display_word_counter&lt;/span&gt;&lt;span class=&quot;params&quot;&gt;(&lt;span class=&quot;keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;&amp;amp; word_map, ofstream&amp;amp; os)&lt;/span&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;built_in&quot;&gt;map&lt;/span&gt;&amp;lt;&lt;span class=&quot;built_in&quot;&gt;string&lt;/span&gt;, &lt;span class=&quot;keyword&quot;&gt;int&lt;/span&gt;&amp;gt;::const_iterator&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		iter = word_map.begin(),&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		end_it = word_map.end();&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&lt;span class=&quot;keyword&quot;&gt;while&lt;/span&gt; (iter != end_it) &amp;#123;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		os &amp;lt;&amp;lt; iter-&amp;gt;first &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;(&quot;&lt;/span&gt; &amp;lt;&amp;lt; iter-&amp;gt;second &amp;lt;&amp;lt; &lt;span class=&quot;string&quot;&gt;&quot;)&quot;&lt;/span&gt; &amp;lt;&amp;lt; &lt;span class=&quot;built_in&quot;&gt;endl&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;		++iter;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;	os &amp;lt;&amp;lt; &lt;span class=&quot;built_in&quot;&gt;endl&lt;/span&gt;;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&amp;#125;&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;</content>
     
     <summary type="html">
     
       &lt;p&gt;&lt;meta charset=utf-8&gt;&lt;br&gt;Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)&lt;/p&gt;
-&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/img/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width = &quot;600&quot; height = &quot;600&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
+&lt;p&gt;&lt;center&gt;&lt;img src=&quot;/images/land_of_pixels.jpg&quot; alt=&quot;land_of_pixels&quot; width = &quot;600&quot; height = &quot;600&quot;/&gt;&lt;/center&gt;&lt;/p&gt;
 &lt;h2 id=&quot;容器类型&quot;&gt;&lt;a href=&quot;#容器类型&quot; class=&quot;headerlink&quot; title=&quot;容器类型&quot;&gt;&lt;/a&gt;容器类型&lt;/h2&gt;&lt;p&gt;包括vector,list,set,map;&lt;br&gt;其中vector,list属于序列式容器，主要进行迭代操作；&lt;br&gt;set(key),map(key/value)属于关联式容器，可快速寻找元素值；&lt;/p&gt;
 &lt;p&gt;List类型：&lt;br&gt;    包含前向指针(foward):寻址上一个对象；&lt;br&gt;      回向指针(backward):寻址下一个对象。&lt;/p&gt;
 &lt;h2 id=&quot;实例：单词出现次数查询&quot;&gt;&lt;a href=&quot;#实例：单词出现次数查询&quot; class=&quot;headerlink&quot; title=&quot;实例：单词出现次数查询&quot;&gt;&lt;/a&gt;实例：单词出现次数查询&lt;/h2&gt;

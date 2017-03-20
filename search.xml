@@ -45,7 +45,7 @@
 	<title>writing</title>
 </head>
 <body>
-<center><img src="/img/one_line_kangaroo.png" width="600" height="400" alt="drum"></center>
+<center><img src="/images/one_line_kangaroo.png" width="600" height="400" alt="drum"></center>
 <ul><li class="here">As is shown vividly above <br>
 	正如上图生动展示的那样
 </li>
@@ -123,7 +123,7 @@ The life of a man is the process of trying. The more one tries, the better his l
 	<head>
 	</head>
 	<body>
-		<center><img src="/img/drum.gif" alt="drum"></center>
+		<center><img src="/images/drum.gif" alt="drum"></center>
 		<h2 id="&lt;!--&gt;">&lt;!--&gt;</h2>
 		<h3>用法</h3>
 		<code>
@@ -361,7 +361,7 @@ The life of a man is the process of trying. The more one tries, the better his l
       <title><![CDATA[Markdown Grammar]]></title>
       <url>https://derive.cc/2016/05/09/Markdown-%E8%AF%AD%E6%B3%95/</url>
       <content type="html"><![CDATA[<p><strong>NOTE:</strong> This is Simplified Chinese Edition Document of Markdown Syntax.</p>
-<p><center><img src="/img/one_line_crab.png" alt="one_line_crab" width="800" height="558"></center></p>
+<p><center><img src="/images/one_line_crab.png" alt="one_line_crab" width="800" height="558"></center></p>
 <h1 id="Markdown-Syntax"><a href="#Markdown-Syntax" class="headerlink" title="Markdown: Syntax"></a>Markdown: Syntax</h1><ul>
 <li><a href="#overview">概述</a><ul>
 <li><a href="#philosophy">哲学</a></li>
@@ -838,95 +838,11 @@ _   底线
       <title><![CDATA[Container]]></title>
       <url>https://derive.cc/2016/05/07/container/</url>
       <content type="html"><![CDATA[<p><meta charset="utf-8"><br>Standard Template Library(STL标准模板库)=容器+泛型算法(对容器进行操作的算法)</p>
-<p><center><img src="/img/land_of_pixels.jpg" alt="land_of_pixels" width="600" height="600"></center></p>
+<p><center><img src="/images/land_of_pixels.jpg" alt="land_of_pixels" width="600" height="600"></center></p>
 <h2 id="容器类型"><a href="#容器类型" class="headerlink" title="容器类型"></a>容器类型</h2><p>包括vector,list,set,map;<br>其中vector,list属于序列式容器，主要进行迭代操作；<br>set(key),map(key/value)属于关联式容器，可快速寻找元素值；</p>
 <p>List类型：<br>    包含前向指针(foward):寻址上一个对象；<br>      回向指针(backward):寻址下一个对象。</p>
 <h2 id="实例：单词出现次数查询"><a href="#实例：单词出现次数查询" class="headerlink" title="实例：单词出现次数查询"></a>实例：单词出现次数查询</h2><a id="more"></a>
-<pre><code>#include&lt;map&gt;
-#include&lt;set&gt;
-#include&lt;string&gt;
-#include&lt;iostream&gt;
-#include&lt;fstream&gt;
-using namespace std;
-
-void initialize_exclusion_set(set&lt;string&gt;&amp;);
-void process_file(map&lt;string, int&gt;&amp;, const set&lt;string&gt;&amp;, ifstream&amp;);
-void display_word_counter(const map&lt;string, int&gt;&amp;, ofstream&amp;);
-void user_query(const map&lt;string, int&gt;&amp;);
-
-int main()
-{
-    ifstream ifile(&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\C.txt&quot;);
-    ofstream ofile(&quot;C:\\Users\\zhaow\\Documents\\Notepad++\\out.map&quot;);
-    if (!ifile || !ofile)
-    {
-        cerr &lt;&lt; &quot;unable to open file -- bailing out!\n&quot;;
-        return -1;
-    }
-    set&lt;string&gt; exclude_set;
-    initialize_exclusion_set(exclude_set);
-
-    map&lt;string, int&gt; word_count;
-    user_query(word_count);
-    process_file(word_count, exclude_set, ifile);
-    display_word_counter(word_count, ofile);
-
-}
-
-
-void initialize_exclusion_set(set&lt;string&gt; &amp;exs)
-{
-    static string _excluded_word[25] = {
-        &quot;the&quot;,&quot;and&quot;,&quot;but&quot;,&quot;that&quot;,&quot;then&quot;,&quot;are&quot;,&quot;been&quot;,&quot;can&quot;,&quot;a&quot;,&quot;could&quot;,&quot;did&quot;,&quot;for&quot;,&quot;of&quot;,
-        &quot;had&quot;,&quot;have&quot;,&quot;him&quot;,&quot;his&quot;,&quot;her&quot;,&quot;its&quot;,&quot;is&quot;,&quot;were&quot;,&quot;which&quot;,&quot;when&quot;,&quot;with&quot;,&quot;would&quot;
-    };
-    exs.insert(_excluded_word, _excluded_word + 25);//为set类型赋值
-}
-
-void process_file(map&lt;string, int&gt; &amp;word_count,const set&lt;string&gt; &amp;exclude_set,ifstream &amp;ifile)
-{
-    string word;
-    while (ifile &gt;&gt; word)
-    {
-        if (exclude_set.count(word))//判断读入单词是否在剔除列表
-            continue;
-        word_count[word]++;
-    }
-}
-
-
-void user_query(const map&lt;string, int&gt;&amp; word_map)
-{
-    string search_word;
-    cout &lt;&lt; &quot;please enter a word to search: q to quit\n&quot;;
-    cin &gt;&gt; search_word;
-    while (search_word.size() &amp;&amp; search_word != &quot;q&quot;)
-    {
-        map&lt;string, int&gt;::const_iterator it;
-        if ((it = word_map.find(search_word)) != word_map.end())
-        cout &lt;&lt; &quot;Found! &quot; &lt;&lt; it-&gt;first &lt;&lt; &quot; occurs &quot; &lt;&lt; it-&gt;second &lt;&lt; &quot; times\n&quot;;
-        else
-            cout &lt;&lt; search_word &lt;&lt; &quot; was not found in text.\n&quot;;
-            cout &lt;&lt; &quot;\nAnother search?(q to quit)&quot;;
-        cin &gt;&gt; search_word;
-
-
-
-    }
-}
-
-void display_word_counter(const map&lt;string, int&gt;&amp; word_map, ofstream&amp; os)
-{
-    map&lt;string, int&gt;::const_iterator
-        iter = word_map.begin(),
-        end_it = word_map.end();
-    while (iter != end_it) {
-        os &lt;&lt; iter-&gt;first &lt;&lt; &quot;(&quot; &lt;&lt; iter-&gt;second &lt;&lt; &quot;)&quot; &lt;&lt; endl;
-        ++iter;
-    }
-    os &lt;&lt; endl;
-}
-</code></pre>]]></content>
+<figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br><span class="line">76</span><br><span class="line">77</span><br><span class="line">78</span><br><span class="line">79</span><br><span class="line">80</span><br><span class="line">81</span><br><span class="line">82</span><br><span class="line">83</span><br><span class="line">84</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;map&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;set&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;string&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;iostream&gt;</span></span></span><br><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;fstream&gt;</span></span></span><br><span class="line"><span class="keyword">using</span> <span class="keyword">namespace</span> <span class="built_in">std</span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize_exclusion_set</span><span class="params">(<span class="built_in">set</span>&lt;<span class="built_in">string</span>&gt;&amp;)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">process_file</span><span class="params">(<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;&amp;, <span class="keyword">const</span> <span class="built_in">set</span>&lt;<span class="built_in">string</span>&gt;&amp;, ifstream&amp;)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display_word_counter</span><span class="params">(<span class="keyword">const</span> <span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;&amp;, ofstream&amp;)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">user_query</span><span class="params">(<span class="keyword">const</span> <span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;&amp;)</span></span>;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="function">ifstream <span class="title">ifile</span><span class="params">(<span class="string">"C:\\Users\\zhaow\\Documents\\Notepad++\\C.txt"</span>)</span></span>;</span><br><span class="line">	<span class="function">ofstream <span class="title">ofile</span><span class="params">(<span class="string">"C:\\Users\\zhaow\\Documents\\Notepad++\\out.map"</span>)</span></span>;</span><br><span class="line">	<span class="keyword">if</span> (!ifile || !ofile)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">cerr</span> &lt;&lt; <span class="string">"unable to open file -- bailing out!\n"</span>;</span><br><span class="line">		<span class="keyword">return</span> <span class="number">-1</span>;</span><br><span class="line">	&#125;</span><br><span class="line">	<span class="built_in">set</span>&lt;<span class="built_in">string</span>&gt; exclude_set;</span><br><span class="line">	initialize_exclusion_set(exclude_set);</span><br><span class="line"></span><br><span class="line">	<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt; word_count;</span><br><span class="line">	user_query(word_count);</span><br><span class="line">	process_file(word_count, exclude_set, ifile);</span><br><span class="line">	display_word_counter(word_count, ofile);</span><br><span class="line"></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">initialize_exclusion_set</span><span class="params">(<span class="built_in">set</span>&lt;<span class="built_in">string</span>&gt; &amp;exs)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">static</span> <span class="built_in">string</span> _excluded_word[<span class="number">25</span>] = &#123;</span><br><span class="line">		<span class="string">"the"</span>,<span class="string">"and"</span>,<span class="string">"but"</span>,<span class="string">"that"</span>,<span class="string">"then"</span>,<span class="string">"are"</span>,<span class="string">"been"</span>,<span class="string">"can"</span>,<span class="string">"a"</span>,<span class="string">"could"</span>,<span class="string">"did"</span>,<span class="string">"for"</span>,<span class="string">"of"</span>,</span><br><span class="line">		<span class="string">"had"</span>,<span class="string">"have"</span>,<span class="string">"him"</span>,<span class="string">"his"</span>,<span class="string">"her"</span>,<span class="string">"its"</span>,<span class="string">"is"</span>,<span class="string">"were"</span>,<span class="string">"which"</span>,<span class="string">"when"</span>,<span class="string">"with"</span>,<span class="string">"would"</span></span><br><span class="line">	&#125;;</span><br><span class="line">	exs.insert(_excluded_word, _excluded_word + <span class="number">25</span>);<span class="comment">//为set类型赋值</span></span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">process_file</span><span class="params">(<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt; &amp;word_count,<span class="keyword">const</span> <span class="built_in">set</span>&lt;<span class="built_in">string</span>&gt; &amp;exclude_set,ifstream &amp;ifile)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> word;</span><br><span class="line">	<span class="keyword">while</span> (ifile &gt;&gt; word)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="keyword">if</span> (exclude_set.count(word))<span class="comment">//判断读入单词是否在剔除列表</span></span><br><span class="line">			<span class="keyword">continue</span>;</span><br><span class="line">		word_count[word]++;</span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">user_query</span><span class="params">(<span class="keyword">const</span> <span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;&amp; word_map)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="built_in">string</span> search_word;</span><br><span class="line">	<span class="built_in">cout</span> &lt;&lt; <span class="string">"please enter a word to search: q to quit\n"</span>;</span><br><span class="line">	<span class="built_in">cin</span> &gt;&gt; search_word;</span><br><span class="line">	<span class="keyword">while</span> (search_word.size() &amp;&amp; search_word != <span class="string">"q"</span>)</span><br><span class="line">	&#123;</span><br><span class="line">		<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;::const_iterator it;</span><br><span class="line">		<span class="keyword">if</span> ((it = word_map.find(search_word)) != word_map.end())</span><br><span class="line">		<span class="built_in">cout</span> &lt;&lt; <span class="string">"Found! "</span> &lt;&lt; it-&gt;first &lt;&lt; <span class="string">" occurs "</span> &lt;&lt; it-&gt;second &lt;&lt; <span class="string">" times\n"</span>;</span><br><span class="line">		<span class="keyword">else</span></span><br><span class="line">			<span class="built_in">cout</span> &lt;&lt; search_word &lt;&lt; <span class="string">" was not found in text.\n"</span>;</span><br><span class="line">			<span class="built_in">cout</span> &lt;&lt; <span class="string">"\nAnother search?(q to quit)"</span>;</span><br><span class="line">		<span class="built_in">cin</span> &gt;&gt; search_word;</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"></span><br><span class="line">	&#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">display_word_counter</span><span class="params">(<span class="keyword">const</span> <span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;&amp; word_map, ofstream&amp; os)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="built_in">map</span>&lt;<span class="built_in">string</span>, <span class="keyword">int</span>&gt;::const_iterator</span><br><span class="line">		iter = word_map.begin(),</span><br><span class="line">		end_it = word_map.end();</span><br><span class="line">	<span class="keyword">while</span> (iter != end_it) &#123;</span><br><span class="line">		os &lt;&lt; iter-&gt;first &lt;&lt; <span class="string">"("</span> &lt;&lt; iter-&gt;second &lt;&lt; <span class="string">")"</span> &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">		++iter;</span><br><span class="line">	&#125;</span><br><span class="line">	os &lt;&lt; <span class="built_in">endl</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>]]></content>
     </entry>
     
   
